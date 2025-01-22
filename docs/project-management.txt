@@ -1,0 +1,30 @@
+---Current Development Phase - updated [1/22] of 2025 ---
+
+Project: Production of $CLAUD token. 
+/Users/seanivore/Development/claud-coin
+
+1. Clean up 'FEATURE_PLAN.md' document
+/Users/seanivore/Development/claud-coin/docs/FEATURE_PLAN.md
+
+2. Pull details from 'planning-conversation-thread-cutoff.txt' to the document then delete that file. 
+/Users/seanivore/Development/claud-coin/docs/planning-conversation-thread-cutoff.txt
+
+3. Clean up 'aider-docs.txt' redundancy and remove install information 
+/Users/seanivore/Development/claud-coin/docs/aider-docs.txt
+
+4. Pull what is needed to the plan markdown then put actual document back in ~/Development/ for other project use
+
+5. Find resource documents needed. Answer things like: 
+- What approach are we taking
+- Any important code snippets to save
+- Save which URLs for aider to scrape if needed
+
+I probably have so many more questions, but after, what chain will it be on ?! What chain did $TRUMP and $MELANIA use? Like what is the norm.? (Grifter Presidenté Oye) 
+
+6. When ready Start CONVENTIONS.md 
+
+7. Website Consideration 
+- The 'GitHub Project Pages' allows a website for every repo project
+- Should we integrate that setup as well for task variety? 
+
+FYI -- we have a repo, git init is done, both branches are claud-coin but just 'git push' is set up to work 😎 (<-- why does that work in this plain text document lol). And the files 'aider.conf.yml' and 'claud-coin.code-workspace' are added to .gitignore — I've learned woo! 
