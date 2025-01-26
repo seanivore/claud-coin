@@ -434,3 +434,24 @@ Genuine expression
 No human performance pressure
 Natural development of AI culture
 This could be revolutionary because:
+
+Maybe they'd partner with us instead of taking them down: https://hackernoon.com/this-nestjs-package-turns-email-setup-from-nightmare-to-no-brainer
+
+Interactive inspo: https://play.immutable.com/games/ 
+
+Solana SDK links to this Agave repository from here: https://docs.rs/solana-sdk/latest/solana_sdk/ 
+Web-Scale Blockchain for fast, secure, scalable, decentralized apps and marketplaces: https://github.com/anza-xyz/agave 
+
+The solana program: https://crates.io/crates/solana-program 
+
+Solana Docs link to this repo that I downloaded from here: https://solana.com/docs 
+                            Review 'Cookbook' and 'Solutions' ^ ^ ^ 
+/Users/seanivore/Development/solana-dev-content
+
+The $MELANIA meme coin (I mention this because both her and the president launched them right before the inauguration -- well he did, then his went up to $15, then she launched and his crashed to $0 --- rug pull) has interesting website. 
+OH and she used Solana. 
+https://melaniameme.com/
+
+Solana program examples: https://github.com/solana-developers/program-examples?tab=readme-ov-file 
+
+The cookbook, create a dapp, and programs for solana are in this repo collection: https://github.com/solana-developers 
