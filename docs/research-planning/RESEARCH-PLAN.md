@@ -97,3 +97,6 @@ Two MCP build repositories, of MCPs we use, that we happen to have copied.
 
 A new, more complicated MCP that I just got a reddit notification for 'Systemprompt MCP Gmail Server'. 
 [https://glama.ai/mcp/servers/qjl092dg46]
+
+Might be interesting/helpful in the future: On-chain Game Development (and more). 
+https://solana.com/developers/guides?tags=program 
