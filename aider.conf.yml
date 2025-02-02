@@ -46,7 +46,9 @@ keep-alive-file: .aider.keep-alive.json
 
 # Editor settings
 fancy-input: true
-edit-format: search-replace
+edit-format: diff
+yes-always: true
+watch-files: true
 edit-format-regex: true
 edit-format-regex-flags: "g"
 edit-format-regex-multiline: true
