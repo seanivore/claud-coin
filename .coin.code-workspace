@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../_ai/resources/mcp-core-concepts"
+		},
+		{
+			"path": "../mcp-guides-docs-framework"
+		},
+		{
+			"path": "../mcp-server-example-v2"
+		}
+	],
+	"settings": {
+		"git.enabled": false,
+		"files.exclude": {
+			"*/": false,          // Show all subdirectories
+			"*/.git": true        // Hide .git folders in projects
+		},
+		"files.associations": {
+			"template.*": "plaintext",
+			"reference.*": "plaintext",
+			".cheatsheet": "plaintext"
+		}
+	}
+}
