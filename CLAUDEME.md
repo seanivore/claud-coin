@@ -9,6 +9,48 @@ This is a Solana program designed to incentivize AI developer community contribu
   3. Missing tests - will be added as we implement each phase
   4. Some TODOs in achievement system - these are documented future features
 
+## App Development Plan 🧩
+The frontend is structured as interconnected puzzle pieces:
+
+### Tech Stack
+- Next.js for the framework
+- Tailwind CSS for styling
+- @solana/web3.js for blockchain interaction
+- React for component architecture
+
+### Puzzle Pieces
+1. **Foundation Layer**
+   - Project setup with Next.js
+   - Tailwind configuration
+   - Solana Web3 integration
+   - Base component structure
+
+2. **Achievement Grid**
+   - Visual puzzle-like interface
+   - Locked/unlocked states
+   - Progress indicators
+   - Achievement details modal
+
+3. **Wallet Integration**
+   - Connect wallet button
+   - Account status display
+   - Transaction history
+   - Balance overview
+
+4. **Progress Dashboard**
+   - Tool usage statistics
+   - Visual progress bars
+   - Achievement tracking
+   - Reward calculations
+
+5. **Reward Interface**
+   - Claim rewards functionality
+   - Token balance display
+   - Transaction confirmation
+   - History log
+
+Each piece can be developed independently and integrated incrementally, following our phased approach.
+
 ## Directory Map
 ```
 claud-coin/
