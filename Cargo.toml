@@ -2,11 +2,19 @@
 name = "claud-coin"
 version = "0.1.0"
 edition = "2021"
-description = "A Solana-based cryptocurrency project"
+description = "A Solana-based cryptocurrency project for incentivizing AI developer community contributions"
 authors = ["Your Name <your.email@example.com>"]
+
+# This is intentionally a library crate to separate core program logic
+# from client-side functionality. The client subcrate handles interaction
+# with the program.
+[lib]
+crate-type = ["cdylib", "lib"]
 
 [features]
 no-entrypoint = []
+custom-heap = []
+custom-panic = []
 
 [dependencies]
 solana-program = "1.17.0"
@@ -24,15 +32,8 @@ solana-sdk = "1.17.0"
 proptest = "1.3"
 criterion = { version = "0.5", features = ["html_reports"] }
 
-[lib]
-crate-type = ["cdylib", "lib"]
-
 [workspace]
 members = [
     ".",
     "client"
-]
-
-[[bench]]
-name = "program_benchmarks"
-harness = false 
+] 
