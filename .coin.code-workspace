@@ -2,15 +2,6 @@
 	"folders": [
 		{
 			"path": "."
-		},
-		{
-			"path": "../_ai/resources/mcp-core-concepts"
-		},
-		{
-			"path": "../mcp-guides-docs-framework"
-		},
-		{
-			"path": "../mcp-server-example-v2"
 		}
 	],
 	"settings": {
