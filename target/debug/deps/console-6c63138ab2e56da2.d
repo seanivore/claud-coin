@@ -1,0 +1,11 @@
+/Users/seanivore/Development/claud-coin/target/debug/deps/libconsole-6c63138ab2e56da2.rmeta: /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.10/src/lib.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.10/src/common_term.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.10/src/kb.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.10/src/term.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.10/src/unix_term.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.10/src/utils.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.10/src/ansi.rs
+
+/Users/seanivore/Development/claud-coin/target/debug/deps/console-6c63138ab2e56da2.d: /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.10/src/lib.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.10/src/common_term.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.10/src/kb.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.10/src/term.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.10/src/unix_term.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.10/src/utils.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.10/src/ansi.rs
+
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.10/src/lib.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.10/src/common_term.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.10/src/kb.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.10/src/term.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.10/src/unix_term.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.10/src/utils.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.10/src/ansi.rs:

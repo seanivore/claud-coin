@@ -1,0 +1,10 @@
+/Users/seanivore/Development/claud-coin/target/debug/deps/libnum_bigint-9485c10de3fdcf31.rmeta: /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/num-bigint-0.2.6/src/lib.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/num-bigint-0.2.6/src/macros.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/num-bigint-0.2.6/src/bigint.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/num-bigint-0.2.6/src/biguint.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/num-bigint-0.2.6/src/algorithms.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/num-bigint-0.2.6/src/monty.rs
+
+/Users/seanivore/Development/claud-coin/target/debug/deps/num_bigint-9485c10de3fdcf31.d: /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/num-bigint-0.2.6/src/lib.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/num-bigint-0.2.6/src/macros.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/num-bigint-0.2.6/src/bigint.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/num-bigint-0.2.6/src/biguint.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/num-bigint-0.2.6/src/algorithms.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/num-bigint-0.2.6/src/monty.rs
+
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/num-bigint-0.2.6/src/lib.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/num-bigint-0.2.6/src/macros.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/num-bigint-0.2.6/src/bigint.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/num-bigint-0.2.6/src/biguint.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/num-bigint-0.2.6/src/algorithms.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/num-bigint-0.2.6/src/monty.rs:

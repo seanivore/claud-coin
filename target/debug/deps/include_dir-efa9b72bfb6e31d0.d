@@ -1,0 +1,11 @@
+/Users/seanivore/Development/claud-coin/target/debug/deps/libinclude_dir-efa9b72bfb6e31d0.rmeta: /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/lib.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/dir.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/dir_entry.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/file.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/../README.md
+
+/Users/seanivore/Development/claud-coin/target/debug/deps/libinclude_dir-efa9b72bfb6e31d0.rlib: /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/lib.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/dir.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/dir_entry.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/file.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/../README.md
+
+/Users/seanivore/Development/claud-coin/target/debug/deps/include_dir-efa9b72bfb6e31d0.d: /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/lib.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/dir.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/dir_entry.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/file.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/../README.md
+
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/lib.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/dir.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/dir_entry.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/file.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/../README.md:

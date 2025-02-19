@@ -1,0 +1,11 @@
+/Users/seanivore/Development/claud-coin/target/debug/deps/libfragile-7c848430299d3fa7.rmeta: /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/lib.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/errors.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/fragile.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/registry.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/semisticky.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/sticky.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/thread_id.rs
+
+/Users/seanivore/Development/claud-coin/target/debug/deps/fragile-7c848430299d3fa7.d: /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/lib.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/errors.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/fragile.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/registry.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/semisticky.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/sticky.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/thread_id.rs
+
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/lib.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/errors.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/fragile.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/registry.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/semisticky.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/sticky.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/thread_id.rs:

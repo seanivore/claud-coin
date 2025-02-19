@@ -1,11 +1,21 @@
+# Environment variables
+.env
+
+# Aider files
+.aider*
+.aider.chat.history.md
 aider.conf.yml
-claud-coin.code-workspace
-.grants/
+.aider.tags.cache.v3
 
-# Ignore all subdirectories (where individual projects live)
-*/
+# LLM Context
+curr_ctx.toml
+.llm-context/* 
 
-# Standard ignores
+# Dependencies
+node_modules/
+npm-debug.log*
+
+# OS files
 .DS_Store
 .DS_Store?
 ._*
@@ -13,19 +23,17 @@ claud-coin.code-workspace
 .Trashes
 ehthumbs.db
 Thumbs.db
-.env
 
 # IDE/Editor files
 .idea/
-.vscode/
-.code-workspace/
-.cursorrules
+.vscode/*
 *.swp
 *.swo
-curr_ctx.toml
-
-# Aider cache files
-.aider.tags.cache.v3
+*.code-workspace
+.cursorrules
+.cursor/rules/*
+.planning/*
+.grants/
 
 # Make sure we don't accidentally commit any actual project files
 # that might end up in the root temporarily

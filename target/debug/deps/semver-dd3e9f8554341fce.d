@@ -1,0 +1,12 @@
+/Users/seanivore/Development/claud-coin/target/debug/deps/libsemver-dd3e9f8554341fce.rmeta: /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-1.0.25/src/lib.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-1.0.25/src/backport.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-1.0.25/src/display.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-1.0.25/src/error.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-1.0.25/src/eval.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-1.0.25/src/identifier.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-1.0.25/src/impls.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-1.0.25/src/parse.rs
+
+/Users/seanivore/Development/claud-coin/target/debug/deps/semver-dd3e9f8554341fce.d: /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-1.0.25/src/lib.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-1.0.25/src/backport.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-1.0.25/src/display.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-1.0.25/src/error.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-1.0.25/src/eval.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-1.0.25/src/identifier.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-1.0.25/src/impls.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-1.0.25/src/parse.rs
+
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-1.0.25/src/lib.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-1.0.25/src/backport.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-1.0.25/src/display.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-1.0.25/src/error.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-1.0.25/src/eval.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-1.0.25/src/identifier.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-1.0.25/src/impls.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-1.0.25/src/parse.rs:
