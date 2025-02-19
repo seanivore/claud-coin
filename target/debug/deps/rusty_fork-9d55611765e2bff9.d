@@ -1,0 +1,11 @@
+/Users/seanivore/Development/claud-coin/target/debug/deps/librusty_fork-9d55611765e2bff9.rmeta: /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusty-fork-0.3.0/src/lib.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusty-fork-0.3.0/src/sugar.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusty-fork-0.3.0/src/fork_test.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusty-fork-0.3.0/src/error.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusty-fork-0.3.0/src/cmdline.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusty-fork-0.3.0/src/fork.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusty-fork-0.3.0/src/child_wrapper.rs
+
+/Users/seanivore/Development/claud-coin/target/debug/deps/rusty_fork-9d55611765e2bff9.d: /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusty-fork-0.3.0/src/lib.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusty-fork-0.3.0/src/sugar.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusty-fork-0.3.0/src/fork_test.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusty-fork-0.3.0/src/error.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusty-fork-0.3.0/src/cmdline.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusty-fork-0.3.0/src/fork.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusty-fork-0.3.0/src/child_wrapper.rs
+
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusty-fork-0.3.0/src/lib.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusty-fork-0.3.0/src/sugar.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusty-fork-0.3.0/src/fork_test.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusty-fork-0.3.0/src/error.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusty-fork-0.3.0/src/cmdline.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusty-fork-0.3.0/src/fork.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rusty-fork-0.3.0/src/child_wrapper.rs:

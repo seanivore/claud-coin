@@ -1,0 +1,25 @@
+[package]
+name = "claud-coin-client"
+version = "0.1.0"
+edition = "2021"
+description = "Client library for Claud Coin"
+authors = ["Your Name <your.email@example.com>"]
+
+[dependencies]
+solana-sdk = "1.17.0"
+solana-client = "1.17.0"
+solana-program = "1.17.0"
+claud-coin = { path = ".." }
+tokio = { version = "1.32", features = ["full"] }
+reqwest = { version = "0.11", features = ["json", "stream"] }
+chrono = "0.4"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "1.0.50"
+anyhow = "1.0"
+tracing = "0.1"
+futures = "0.3"
+
+[dev-dependencies]
+tokio-test = "0.4"
+wiremock = "0.5" 

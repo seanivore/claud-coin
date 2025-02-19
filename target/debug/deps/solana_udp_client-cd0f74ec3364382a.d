@@ -1,0 +1,8 @@
+/Users/seanivore/Development/claud-coin/target/debug/deps/libsolana_udp_client-cd0f74ec3364382a.rmeta: /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.26/src/lib.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.26/src/nonblocking/mod.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.26/src/nonblocking/udp_client.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.26/src/udp_client.rs
+
+/Users/seanivore/Development/claud-coin/target/debug/deps/solana_udp_client-cd0f74ec3364382a.d: /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.26/src/lib.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.26/src/nonblocking/mod.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.26/src/nonblocking/udp_client.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.26/src/udp_client.rs
+
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.26/src/lib.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.26/src/nonblocking/mod.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.26/src/nonblocking/udp_client.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.26/src/udp_client.rs:

@@ -1,0 +1,11 @@
+/Users/seanivore/Development/claud-coin/target/debug/deps/libsignature-527c195d1a15e4fd.rmeta: /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/signature-1.6.4/src/lib.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/signature-1.6.4/src/error.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/signature-1.6.4/src/keypair.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/signature-1.6.4/src/signature.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/signature-1.6.4/src/signer.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/signature-1.6.4/src/verifier.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/signature-1.6.4/src/../README.md
+
+/Users/seanivore/Development/claud-coin/target/debug/deps/signature-527c195d1a15e4fd.d: /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/signature-1.6.4/src/lib.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/signature-1.6.4/src/error.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/signature-1.6.4/src/keypair.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/signature-1.6.4/src/signature.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/signature-1.6.4/src/signer.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/signature-1.6.4/src/verifier.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/signature-1.6.4/src/../README.md
+
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/signature-1.6.4/src/lib.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/signature-1.6.4/src/error.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/signature-1.6.4/src/keypair.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/signature-1.6.4/src/signature.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/signature-1.6.4/src/signer.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/signature-1.6.4/src/verifier.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/signature-1.6.4/src/../README.md:

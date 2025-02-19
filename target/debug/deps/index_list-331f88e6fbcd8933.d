@@ -1,0 +1,10 @@
+/Users/seanivore/Development/claud-coin/target/debug/deps/libindex_list-331f88e6fbcd8933.rmeta: /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/index_list-0.2.15/src/lib.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/index_list-0.2.15/src/listdrainiter.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/index_list-0.2.15/src/listindex.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/index_list-0.2.15/src/listiter.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/index_list-0.2.15/src/listnode.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/index_list-0.2.15/src/listends.rs
+
+/Users/seanivore/Development/claud-coin/target/debug/deps/index_list-331f88e6fbcd8933.d: /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/index_list-0.2.15/src/lib.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/index_list-0.2.15/src/listdrainiter.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/index_list-0.2.15/src/listindex.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/index_list-0.2.15/src/listiter.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/index_list-0.2.15/src/listnode.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/index_list-0.2.15/src/listends.rs
+
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/index_list-0.2.15/src/lib.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/index_list-0.2.15/src/listdrainiter.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/index_list-0.2.15/src/listindex.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/index_list-0.2.15/src/listiter.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/index_list-0.2.15/src/listnode.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/index_list-0.2.15/src/listends.rs:

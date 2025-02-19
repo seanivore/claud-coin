@@ -1,0 +1,10 @@
+/Users/seanivore/Development/claud-coin/target/debug/deps/libos_str_bytes-0a5bf1699726aec3.rmeta: /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/os_str_bytes-6.6.1/src/lib.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/os_str_bytes-6.6.1/src/common/mod.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/os_str_bytes-6.6.1/src/common/raw.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/os_str_bytes-6.6.1/src/iter.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/os_str_bytes-6.6.1/src/pattern.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/os_str_bytes-6.6.1/src/raw_str.rs
+
+/Users/seanivore/Development/claud-coin/target/debug/deps/os_str_bytes-0a5bf1699726aec3.d: /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/os_str_bytes-6.6.1/src/lib.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/os_str_bytes-6.6.1/src/common/mod.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/os_str_bytes-6.6.1/src/common/raw.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/os_str_bytes-6.6.1/src/iter.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/os_str_bytes-6.6.1/src/pattern.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/os_str_bytes-6.6.1/src/raw_str.rs
+
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/os_str_bytes-6.6.1/src/lib.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/os_str_bytes-6.6.1/src/common/mod.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/os_str_bytes-6.6.1/src/common/raw.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/os_str_bytes-6.6.1/src/iter.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/os_str_bytes-6.6.1/src/pattern.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/os_str_bytes-6.6.1/src/raw_str.rs:

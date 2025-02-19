@@ -1,0 +1,12 @@
+/Users/seanivore/Development/claud-coin/target/debug/deps/libtar-c44bfc696d45255d.rmeta: /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.43/src/lib.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.43/src/archive.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.43/src/builder.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.43/src/entry.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.43/src/entry_type.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.43/src/error.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.43/src/header.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.43/src/pax.rs
+
+/Users/seanivore/Development/claud-coin/target/debug/deps/tar-c44bfc696d45255d.d: /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.43/src/lib.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.43/src/archive.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.43/src/builder.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.43/src/entry.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.43/src/entry_type.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.43/src/error.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.43/src/header.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.43/src/pax.rs
+
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.43/src/lib.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.43/src/archive.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.43/src/builder.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.43/src/entry.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.43/src/entry_type.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.43/src/error.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.43/src/header.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tar-0.4.43/src/pax.rs:

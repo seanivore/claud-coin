@@ -1,0 +1,12 @@
+/Users/seanivore/Development/claud-coin/target/debug/deps/libpkcs8-b020016abf6e75a5.rmeta: /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pkcs8-0.8.0/src/lib.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pkcs8-0.8.0/src/error.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pkcs8-0.8.0/src/private_key_info.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pkcs8-0.8.0/src/traits.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pkcs8-0.8.0/src/version.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pkcs8-0.8.0/src/document.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pkcs8-0.8.0/src/document/private_key.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pkcs8-0.8.0/src/../README.md
+
+/Users/seanivore/Development/claud-coin/target/debug/deps/pkcs8-b020016abf6e75a5.d: /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pkcs8-0.8.0/src/lib.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pkcs8-0.8.0/src/error.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pkcs8-0.8.0/src/private_key_info.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pkcs8-0.8.0/src/traits.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pkcs8-0.8.0/src/version.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pkcs8-0.8.0/src/document.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pkcs8-0.8.0/src/document/private_key.rs /Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pkcs8-0.8.0/src/../README.md
+
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pkcs8-0.8.0/src/lib.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pkcs8-0.8.0/src/error.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pkcs8-0.8.0/src/private_key_info.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pkcs8-0.8.0/src/traits.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pkcs8-0.8.0/src/version.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pkcs8-0.8.0/src/document.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pkcs8-0.8.0/src/document/private_key.rs:
+/Users/seanivore/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pkcs8-0.8.0/src/../README.md:
