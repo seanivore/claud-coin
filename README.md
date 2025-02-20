@@ -2,6 +2,9 @@
 
 A Solana-based incentivization protocol for AI developer communities, focusing on Model Context Protocol (MCP) integration and knowledge sharing.
 
+Bringing together the utility and community created by a decentralized system that utilizes tokenization to create order, recognition, and education 
+
+An ecosystem that catalogs and ranks AI tools by design, creates a safe space for new AI 
 ## 🎯 Mission
 
 Claud Coin bridges the gap between traditional developers and the emerging "AI-native" development community by:
@@ -122,4 +125,4 @@ This project aligns with several Solana ecosystem priorities:
 4. **Innovation**
    - Novel AI developer incentives
    - MCP integration
-   - Achievement-based progression 
+   - Achievement-based progression
