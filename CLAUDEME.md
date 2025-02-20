@@ -26,8 +26,8 @@ The frontend is structured as interconnected puzzle pieces:
    - Base component structure
 
 2. **Achievement Grid**
-   - Visual puzzle-like interface
-   - Locked/unlocked states
+   - Platformless UI
+   - Status or states
    - Progress indicators
    - Achievement details modal
 

@@ -14,8 +14,9 @@ curr_ctx.toml
 # Dependencies
 node_modules/
 npm-debug.log*
+/Users/seanivore/Development/claud-coin/taget/*
 
-# Rust build files
+# Rust
 /target/
 **/*.rs.bk
 Cargo.lock
@@ -44,4 +45,4 @@ Thumbs.db
 # that might end up in the root temporarily
 *.log
 *.lock
-node_modules/
+node_modules/ 
