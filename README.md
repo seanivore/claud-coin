@@ -13,6 +13,14 @@ Claud Coin bridges the gap between traditional developers and the emerging "AI-n
 - Creating a sustainable economy around AI tool development
 - Gamifying the learning process for new AI developers
 
+## Feature Documentation
+1. [Core MCP Integration](/feature-build/FEATURE-1-core-mcp-integration.md)
+2. [Token Economics & Distribution](/feature-build/FEATURE-2-token-economics-distribution.md)
+3. [User Interaction Systems](/feature-build/FEATURE-3-user-interaction-systems.md)
+4. [Community Management](/feature-build/FEATURE-4-community-management.md)
+5. [Development Roadmap](/feature-build/FEATURE-5-development-roadmap.md)
+6. [Technical Requirements](/feature-build/FEATURE-6-technical-requirements.md)
+
 ## 🏗️ Architecture
 
 The project implements a three-tiered reward system:

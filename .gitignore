@@ -1,6 +1,8 @@
 # Environment variables
 .env
 
+/Users/seanivore/Development/claud-coin/.RESEARCH_PLANNING/*
+
 # Aider files
 .aider*
 .aider.chat.history.md
