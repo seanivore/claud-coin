@@ -11,7 +11,7 @@
    `\_/\_\                                         
       \/_/                                         
 ================================================================================
-[Path](/Users/seanivore/Development/claud-coin/docs/FEATURE-2-token-economics-distribution.md)
+[Path](/claud-coin/docs/feature-build/FEATURE-2-token-economics-distribution.md)
 [Repository](https://github.com/seanivore/claud-coin/blob/main/docs/FEATURE-2-token-economics-distribution.md)
 ================================================================================
 
