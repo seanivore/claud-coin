@@ -1,40 +1,30 @@
 # Claud Coin ($CLAUD)
+[claud-coin](https://github.com/seanivore/claud-coin)
 
 A Solana-based incentivization protocol for AI developer communities, focusing on Model Context Protocol (MCP) integration and knowledge sharing.
 
-Bringing together the utility and community created by a decentralized system that utilizes tokenization to create order, recognition, and education 
-
-An ecosystem that catalogs and ranks AI tools by design, creates a safe space for new AI 
 ## 🎯 Mission
 
 Claud Coin bridges the gap between traditional developers and the emerging "AI-native" development community by:
-- Incentivize knowledge sharing and tool creation
+- Incentivizing knowledge sharing and tool creation
 - Rewarding quality contributions to the AI development ecosystem
 - Creating a sustainable economy around AI tool development
 - Gamifying the learning process for new AI developers
 
-## Feature Documentation
-1. [Core MCP Integration](/feature-build/FEATURE-1-core-mcp-integration.md)
-2. [Token Economics & Distribution](/feature-build/FEATURE-2-token-economics-distribution.md)
-3. [User Interaction Systems](/feature-build/FEATURE-3-user-interaction-systems.md)
-4. [Community Management](/feature-build/FEATURE-4-community-management.md)
-5. [Development Roadmap](/feature-build/FEATURE-5-development-roadmap.md)
-6. [Technical Requirements](/feature-build/FEATURE-6-technical-requirements.md)
-
 ## 🏗️ Architecture
 
 The project implements a three-tiered reward system:
-1. **Tool Usage** (100 base tokens)
+1. Tool Usage [100-base-tokens]
    - Rewards for using and testing AI development tools
    - Complexity-based scoring system
    - Anti-gaming protections built-in
-
-2. **Resource Access** (50 base tokens)
-   - Incentives sharing of development resources
+]
+1. Resource Access [50-base-tokens]
+   - Incentives for sharing development resources
    - Documentation contributions
    - Code examples and templates
 
-3. **Community Building** (200 base tokens)
+2. Community Building [200-base-tokens]
    - Higher rewards for community contributions
    - Knowledge sharing and mentoring
    - Creating educational content
@@ -43,7 +33,7 @@ The project implements a three-tiered reward system:
 
 ### Core Features
 - Solana program for token management and distribution
-- Achievement system with NFT integration (Phase 3)
+- Achievement system with NFT integration [Phase-3]
 - MCP integration for tool usage tracking
 - Complexity scoring algorithm for fair rewards
 - Anti-spam protections with cooldown periods
@@ -52,34 +42,33 @@ The project implements a three-tiered reward system:
 ```
 claud-coin/
 ├── src/
-│   ├── error.rs      # Custom error types
-│   ├── instruction.rs # Program instructions
-│   ├── processor.rs  # Core logic implementation
-│   └── state.rs      # Program state definitions
-├── client/           # Client-side functionality
-├── tests/            # Integration tests
-└── docs/            # Technical documentation
+│   ├── error.rs        # Custom error types
+│   ├── instruction.rs  # Program instructions
+│   ├── processor.rs    # Core logic implementation
+│   └── state.rs        # Program state definitions
+├── client/             # Client-side functionality
+├── tests/              # Integration tests
+└── docs/               # Technical documentation
 ```
 
 ## 🚀 Development Status
 
-Currently in Phase 1 of 3:
+Currently in Initial Funding Phase [3-weeks]:
 
-**Phase 1** (Current)
-- ✅ Core state management
-- ✅ Validation logic
-- ✅ Achievement system foundation
-- ✅ Anti-gaming protections
+Initial Funding Phase [Current]
+- MCP Registration & Validation System
+- NFT Minting Infrastructure
+- Basic Token Infrastructure
+- Essential Transport Layer
+- Initial Liquidity [$3,000]
+- Documentation & Testing
 
-**Phase 2** (Next)
-- 🔄 SPL Token integration
-- 🔄 Reward distribution
-- 🔄 Token transfer implementation
+Future Phases
+- Platform Growth Phase
+- Network Scaling Phase
+- Ecosystem Expansion Phase
 
-**Phase 3** (Planned)
-- 📋 NFT achievement badges
-- 📋 Advanced tracking system
-- 📋 Governance features
+See [PROJECT_MAP.md](docs/PROJECT_MAP.md) for complete development roadmap.
 
 ## 🛠️ Setup & Development
 
@@ -111,26 +100,13 @@ We welcome contributions! See our [Contributing Guide](docs/CONTRIBUTING.md) for
 
 Apache 2.0 - See [LICENSE](LICENSE) for details
 
-## 🌟 Grant Program Alignment
+## 📚 Documentation
 
-This project aligns with several Solana ecosystem priorities:
-
-1. **Developer Tools**
-   - Enhances AI development workflow
-   - Creates standardized tool usage metrics
-   - Improves developer onboarding
-
-2. **Education**
-   - Gamified learning system
-   - Knowledge sharing incentives
-   - Community-driven education
-
-3. **Public Good**
-   - Open source development
-   - Community resource creation
-   - Ecosystem growth support
-
-4. **Innovation**
-   - Novel AI developer incentives
-   - MCP integration
-   - Achievement-based progression
+- [Strategic Philosophy](docs/STRATEGIC_PHILOSOPHY.md)
+- [MCP Transport Layer](docs/feature-build/01_MCP_TRANSPORT_LAYER.md)
+- [Token Economics](docs/feature-build/02_TOKEN_ECONOMICS.md)
+- [User Interaction](docs/feature-build/03_USER_INTERACTION.md)
+- [Community Management](docs/feature-build/04_COMMUNITY_MANAGEMENT.md)
+- [Development Phases](docs/feature-build/05_DEVELOPMENT_PHASES.md)
+- [Technical Requirements](docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
+- [Risk Analysis](docs/RISK_ANALYSIS.md)
