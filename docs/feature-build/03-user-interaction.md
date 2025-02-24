@@ -16,9 +16,7 @@ Yb  M ,M9  8b    d9  MM    /   d'      YM. 8b     d8 MM    .M9
     M                                                          
 
 ================================================================================
-[Path](/FEATURE-3-user-interaction-systems.md)
-[Repository](https://github.com/seanivore/claud-coin/blob/main/docs/feature-build/FEATURE-3-user-interaction-systems.md)
-================================================================================
+[03-user-interaction.md](/docs/03-user-interaction.md)
 
 ## Wallet Integration
 
@@ -191,9 +189,3 @@ class ProgressTracker {
 - User behavior analytics
 - Performance profiling
 - Resource utilization
-
-[MCP Integration](/FEATURE-1-core-mcp-integration.md)
-[Token Systems](/FEATURE-2-token-economics-distribution.md)
-[Technical Requirements](/FEATURE-6-technical-requirements.md)
-[TypeScript SDK](/typescript-sdk/README.md)
-[Solana Web3 Integration Docs](/docs/solutions/web3.md) 
