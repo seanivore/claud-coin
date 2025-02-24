@@ -10,8 +10,6 @@
 
 [STRATEGIC_PHILOSOPHY.md](/docs/STRATEGIC_PHILOSOPHY.md)
 
-================================================================================
-
 We stand at a unique moment ripe with opportunity for influence. A moment made for the bold. For those who know that design is the one thing that makes all the difference. Those of us who have lived in awe of ideas like Bitcoin, or web3 revamping the mess that the internet has become by bringing blockchain efficiency and security to the masses. The same ideas we told everyone were totally 'inevitable' because they were too perfect not to one day be part of the fabric of society.
 
 Right now change is happening faster than ever. It's possible no one will ever see a moment like this again. There is no passing it up. There is only acknowledging that this is less an opportunity and more an obligation. This knowledge and understanding is a gift. And now we've been presented with perfect timing. Timing! No one ever gets timing perfect like this.
