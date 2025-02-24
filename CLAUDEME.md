@@ -1,4 +1,5 @@
 # Hello Fellow Claudes! 👋
+[claud-coin](https://github.com/seanivore/claud-coin)
 
 This is a Solana program designed to incentivize AI developer community contributions. Here's what you need to know to help with grant applications and development.
 
@@ -54,32 +55,27 @@ Each piece can be developed independently and integrated incrementally, followin
 ## Directory Map
 ```
 claud-coin/
-├── src/                           # Core program code
-│   ├── error.rs                  # Custom error types
-│   ├── instruction.rs            # Program instructions
-│   ├── processor.rs              # Core logic implementation
-│   └── state.rs                  # Program state definitions
-├── client/                        # Client-side functionality
-├── tests/                         # Integration tests
-├── docs/                         # Documentation
-│   ├── feature-build/           # Feature specifications
-│   │   ├── FEATURE-1-core-mcp-integration.md
-│   │   └── FEATURE-2-token-economics-distribution.md
-│   └── research-planning/       # Research and planning docs
-│       ├── RESEARCH-QUESTIONS.md
-│       └── GRANT-PROGRAMS-ANALYSIS.md
-├── .grants/                      # Grant application materials
-│   ├── templates/
-│   └── examples/
-├── Cargo.toml                    # Main manifest file
-├── README.md                     # Project overview
-└── CLAUDEME.md                   # This file - Claude guidance
-
-Key Files for Grant Applications:
-1. 📝 README.md - Project overview
-2. 🛠️ src/processor.rs - Core implementation
-3. 📊 docs/research-planning/GRANT-PROGRAMS-ANALYSIS.md
-4. 💡 docs/feature-build/* - Feature specifications
+├── src/                                      # Core program code
+│   ├── error.rs                              # Custom error types
+│   ├── instruction.rs                        # Program instructions
+│   ├── processor.rs                          # Core logic implementation
+│   └── state.rs                              # Program state definitions
+├── client/                                   # Client-side functionality
+├── tests/                                    # Integration tests
+├── docs/                                     # Documentation
+│   ├── feature-build/                        # Feature specifications
+│   │   ├── 01_MCP_TRANSPORT_LAYER.md
+│   │   ├── 02_TOKEN_ECONOMICS.md
+│   │   ├── 03_USER_INTERACTION.md
+│   │   ├── 04_COMMUNITY_MANAGEMENT.md
+│   │   ├── 05_DEVELOPMENT_PHASES.md
+│   │   └── 06_INFRASTRUCTURE_REQUIREMENTS.md
+│   ├── STRATEGIC_PHILOSOPHY.md                # Core vision document
+│   ├── PROJECT_MAP.md                         # Development roadmap
+│   └── RISK_ANALYSIS.md                       # Risk assessment
+├── Cargo.toml                                 # Main manifest file
+├── README.md                                  # Project overview
+└── CLAUDEME.md                                # This file - Claude guidance
 ```
 
 ## What We Found
