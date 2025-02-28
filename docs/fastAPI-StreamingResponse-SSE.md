@@ -74,9 +74,6 @@ async def download_file():
 - Ensure proper headers like `"Content-Type": "text/event-stream"` for SSE endpoints[5].
 - For advanced use cases (e.g., multi-agent orchestration), refer to specialized repositories like the AWS example[9].
 
-Let me know if you'd like further clarification or help with specific implementations!
-
-Sources
 [1] FastAPI Streaming Response: Unlocking Real-Time API Power https://apidog.com/blog/fastapi-streaming-response/
 [2] How to use server-sent events (SSE) with FastAPI? https://devdojo.com/bobbyiliev/how-to-use-server-sent-events-sse-with-fastapi
 [3] FastAPI Streaming Response - DEV Community https://dev.to/ashraful/fastapi-streaming-response-39c5

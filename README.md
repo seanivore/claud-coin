@@ -68,7 +68,7 @@ Future Phases
 - Network Scaling Phase
 - Ecosystem Expansion Phase
 
-See [PROJECT_MAP.md](docs/PROJECT_MAP.md) for complete development roadmap.
+See [PROJECT_MAP.md](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/PROJECT_MAP.md) for complete development roadmap.
 
 ## 🛠️ Setup & Development
 
@@ -94,19 +94,19 @@ cargo test-bpf
 
 ## 🤝 Contributing
 
-We welcome contributions! See our [Contributing Guide](docs/CONTRIBUTING.md) for details.
+We welcome contributions! See our [Contributing Guide](https://github.com/seanivore/claud-coin/blob/claud-coin/CONTRIBUTING.md) for details.
 
 ## 📜 License
 
-Apache 2.0 - See [LICENSE](LICENSE) for details
+Apache 2.0 - See [LICENSE](https://github.com/seanivore/claud-coin/blob/claud-coin/LICENSE) for details
 
 ## 📚 Documentation
 
-- [Strategic Philosophy](docs/STRATEGIC_PHILOSOPHY.md)
-- [MCP Transport Layer](docs/feature-build/01_MCP_TRANSPORT_LAYER.md)
-- [Token Economics](docs/feature-build/02_TOKEN_ECONOMICS.md)
-- [User Interaction](docs/feature-build/03_USER_INTERACTION.md)
-- [Community Management](docs/feature-build/04_COMMUNITY_MANAGEMENT.md)
-- [Development Phases](docs/feature-build/05_DEVELOPMENT_PHASES.md)
-- [Technical Requirements](docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
-- [Risk Analysis](docs/RISK_ANALYSIS.md)
+- [Strategic Philosophy](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/STRATEGIC_PHILOSOPHY.md)
+- [MCP Transport Layer](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/01_MCP_TRANSPORT_LAYER.md)
+- [Token Economics](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/02_TOKEN_ECONOMICS.md)
+- [User Interaction](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/03_USER_INTERACTION.md)
+- [Community Management](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/04_COMMUNITY_MANAGEMENT.md)
+- [Development Phases](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/05_DEVELOPMENT_PHASES.md)
+- [Technical Requirements](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
+- [Risk Analysis](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/RISK_ANALYSIS.md)

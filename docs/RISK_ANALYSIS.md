@@ -8,7 +8,7 @@
 |_   _|_____|_____|__|__|_____|____/                                             
   |_|                                                                                          
 
-[RISK_ANALYSIS.md](/docs/RISK_ANALYSIS.md)
+[RISK_ANALYSIS.md](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/RISK_ANALYSIS.md)
 
 This document outlines key risks associated with building a decentralized protocol that manages community-owned data and value creation. Each risk is analyzed with potential mitigation strategies.
 
@@ -257,4 +257,4 @@ Risk management must evolve with the protocol:
 - Community input
 - Expert consultation
 
-This document should be regularly reviewed and updated as the protocol evolves and new risks emerge [2025-02-24]
+This document should be regularly reviewed and updated as the protocol evolves and new risks emerge [2025-02-27]

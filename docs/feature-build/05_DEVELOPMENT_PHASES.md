@@ -9,7 +9,7 @@
    \:\_\ \ \\:\/___/\\:.\ \  \ \\:\_\:\ \\:\/.:| | 
     \_____\/ \_____\/ \__\/\__\/ \_____\/ \____/_/ 
                                                    
-[Development Roadmap & Implementation Phases](docs/feature-build/05_DEVELOPMENT_PHASES.md)
+[Development Roadmap & Implementation Phases](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/05_DEVELOPMENT_PHASES.md)
 This document outlines our phased development approach, ensuring each stage builds naturally on previous work while maintaining flexibility for community growth and technological evolution.
 
 ================================================================================
@@ -24,10 +24,10 @@ Status: ✅ Complete
   - Anti-gaming protections
   - Technical documentation framework
 
-[Technical Implementation](/claud-coin/docs/feature-build/01_MCP_TRANSPORT_LAYER.md)
-[Token System](/claud-coin/docs/feature-build/02_TOKEN_ECONOMICS.md)
-[Security Architecture](/claud-coin/docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
-[Development Timeline](/claud-coin/docs/feature-build/05_DEVELOPMENT_PHASES.md)
+[Technical Implementation](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/01_MCP_TRANSPORT_LAYER.md)
+[Token System](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/02_TOKEN_ECONOMICS.md)
+[Security Architecture](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
+[Development Timeline](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/05_DEVELOPMENT_PHASES.md)
 
 ================================================================================
 ## Initial Funding Phase (3 Weeks) [$10,000]
@@ -402,11 +402,11 @@ class CommunityTools {
 
 ================================================================================
 
-[MCP Transport Layer](docs/feature-build/01_MCP_TRANSPORT_LAYER.md)
-[Token Economics](docs/feature-build/02_TOKEN_ECONOMICS.md)
-[User Interaction](docs/feature-build/03_USER_INTERACTION.md)
-[Community Management](docs/feature-build/04_COMMUNITY_MANAGEMENT.md)
-[Development Roadmap & Phases](docs/feature-build/05_DEVELOPMENT_PHASES.md)
-[Infrastructure Requirements](docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
+[MCP Transport Layer](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/01_MCP_TRANSPORT_LAYER.md)
+[Token Economics](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/02_TOKEN_ECONOMICS.md)
+[User Interaction](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/03_USER_INTERACTION.md)
+[Community Management](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/04_COMMUNITY_MANAGEMENT.md)
+[Development Roadmap & Phases](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/05_DEVELOPMENT_PHASES.md)
+[Infrastructure Requirements](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
 
 ================================================================================

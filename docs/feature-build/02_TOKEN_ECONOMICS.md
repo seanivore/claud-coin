@@ -11,9 +11,9 @@
    `\_/\_\                                         
       \/_/                                         
 
-[02-token-economics.md](/docs/02-token-economics.md)
+[02-token-economics.md](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/02_TOKEN_ECONOMICS.md)
 
-Our token system fundamentally reimagines how value is created and distributed in developer communities. Instead of forcing artificial behaviors or creating complex reward schemes, we've designed a system that amplifies what developers naturally do - sharing discoveries, helping others, building tools, and forming communities around technologies they love.
+Our token system fundamentally re-imagines how value is created and distributed in developer communities. Instead of forcing artificial behaviors or creating complex reward schemes, we've designed a system that amplifies what developers naturally do - sharing discoveries, helping others, building tools, and forming communities around technologies they love.
 
 ## Natural Value Creation
 
@@ -241,7 +241,7 @@ interface Distribution {
         community: 0.25,          // 25% Community contributions
         development: 0.20,        // 20% Development fund
         ecosystem: 0.15,          // 15% Ecosystem growth
-        core_team: 0.10          // 10% Core team
+        core_team: 0.10           // 10% Core team
     },
     vesting: {
         cliff_period: 6,          // 6 month cliff
@@ -519,11 +519,11 @@ class CommunityDataGovernance {
 
 ================================================================================
 
-[MCP Transport Layer](docs/feature-build/01_MCP_TRANSPORT_LAYER.md)
-[Token Economics](docs/feature-build/02_TOKEN_ECONOMICS.md)
-[User Interaction](docs/feature-build/03_USER_INTERACTION.md)
-[Community Management](docs/feature-build/04_COMMUNITY_MANAGEMENT.md)
-[Development Roadmap & Phases](docs/feature-build/05_DEVELOPMENT_PHASES.md)
-[Infrastructure Requirements](docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
+[MCP Transport Layer](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/01_MCP_TRANSPORT_LAYER.md)
+[Token Economics](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/02_TOKEN_ECONOMICS.md)
+[User Interaction](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/03_USER_INTERACTION.md)
+[Community Management](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/04_COMMUNITY_MANAGEMENT.md)
+[Development Roadmap & Phases](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/05_DEVELOPMENT_PHASES.md)
+[Infrastructure Requirements](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
 
 ================================================================================

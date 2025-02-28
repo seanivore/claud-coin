@@ -13,7 +13,7 @@
  \_  $$_/
    \__/
 
-[GRANTME.md](/claud-grants/GRANTME.md)
+[GRANTME.md](https://github.com/seanivore/claud-coin/blob/claud-coin/GRANTME.md)
 
 ================================================================================
 
@@ -40,7 +40,7 @@ A platform without the walled gardens we've floundered in for so long. Where soc
 
 Engagement in the tokenized realm rains down on users when they certify their MCP builds with the neo-modern copyright, an NFT, which tracks their unique UI even as it is pulled into builds of tools and agents. That same user engagement is the mechanism that enables automated curation and ranking of the best tools for any job. **This is DAO tooling reimagined** - governance through natural use patterns rather than artificial voting mechanisms. The rewards are endless when a like-minded community actively shares and learns from one another in a public, decentralized, and transparent space where other users can see, learn, model behavior, find role models, mentors, and of course, employment.
 
-Carefully planned tokenomics take usage rewards a step further towards what we'd strive to make the norm for shared application design: Users are literally fiscally rewarded for being a productive member of society. This is a stark FYI to newcomers of decentralized thinking pulled in from the AI world. When it clicks that the same place they doomscroll all day could literally pay them for using their apps too, your whole world view shifts. **This creates education through direct experience** - learning blockchain concepts through actual participation.
+Carefully planned tokenomics take usage rewards a step further towards what we'd strive to make the norm for shared application design: Users are literally fiscally rewarded for being a productive member of society. This is a stark FYI to newcomers of decentralized thinking pulled in from the AI world. When it clicks that the same place they doom-scroll all day could literally pay them for using their apps too, your whole world view shifts. **This creates education through direct experience** - learning blockchain concepts through actual participation.
 
 Enter: Solana and its network that has been proving the full might that pennies-per-transaction can provide while sending more than one user and token to the moon. Solana is the network of choice for both the technologically minded and true decentralization lovers. It's for this reason it makes up the best and brightest of those intersecting spaces today. This is the perfect spot for $CLAUD to plant their roots along with their pragmatic protocol that designs in more room that will ever be necessary to keep up with evolving technology and user demands. **We're leveraging Solana's efficiency to build developer tooling that scales** - sub-second validations and rewards distribution even with thousands of concurrent users.
 
@@ -74,7 +74,7 @@ The following is a list of the problems we are solving, and the technical demons
 
 ## Core Technical Demonstrations
 
-### [Developer Tooling & Education Focus](/claud-coin/src/lib.rs)
+### [Developer Tooling & Education Focus](https://github.com/seanivore/claud-coin/blob/claud-coin/src/lib.rs)
 Our MCP integration layer delivers immediate value for developer onboarding and tool discovery. The system tracks and analyzes how developers use AI tools in real-time, automatically identifying the most effective patterns and approaches. This data powers our dynamic reward system that incentivize both tool creation and knowledge sharing, while our complexity scoring ensures rewards align with genuine learning and contribution. As developers interact with tools, the system builds a living knowledge graph that helps others find the most valuable resources for their needs, creating a self-improving educational ecosystem.
 
 ```rust
@@ -87,12 +87,12 @@ impl ClaudCoinClient {
     }
 }
 ```
-  - [Complete MCP Integration](/claud-coin/docs/feature-build/01_MCP_TRANSPORT_LAYER.md)
-  - [Integration Timeline](/claud-coin/docs/feature-build/05_DEVELOPMENT_PHASES.md) - Phase 1
-  - [Performance Specs](/claud-coin/docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md) - Sub-100ms response times
+  - [Complete MCP Integration](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/01_MCP_TRANSPORT_LAYER.md)
+  - [Integration Timeline](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/05_DEVELOPMENT_PHASES.md) - Phase 1
+  - [Performance Specs](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md) - Sub-100ms response times
 
 
-### [Decentralization & Public Good](/claud-coin/src/processor.rs)
+### [Decentralization & Public Good](https://github.com/seanivore/claud-coin/blob/claud-coin/src/processor.rs)
 Token mechanics and reward distribution system built for transparency and fairness. Every interaction with an MCP is tracked on-chain, creating an immutable record of developer contributions and tool effectiveness. Our unique "Proof of Analysis" system rewards both tool creation and thoughtful usage, incentivize quality over quantity. The three-tiered reward structure (100/50/200 base tokens) strategically weights different types of contributions, with higher rewards for activities that grow and strengthen the community. This creates a sustainable economy where learning, teaching, and building all generate tangible value.
 
 ```rust
@@ -108,12 +108,12 @@ pub fn process_record_tool_usage(
     // Tracks community contribution value
 }
 ```
-  - [Token System](/claud-coin/docs/feature-build/02_TOKEN_ECONOMICS.md)
-  - [Reward Mechanics](/claud-coin/docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
-  - [Governance Preparation](/claud-coin/docs/feature-build/04_COMMUNITY_MANAGEMENT.md)
+  - [Token System](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/02_TOKEN_ECONOMICS.md)
+  - [Reward Mechanics](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
+  - [Governance Preparation](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/04_COMMUNITY_MANAGEMENT.md)
 
 
-### [Community Building & Knowledge Sharing](/claud-coin/docs/fastAPI-StreamingResponse-SSE.md)
+### [Community Building & Knowledge Sharing](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/fastAPI-StreamingResponse-SSE.md)
 Real-time event system powers instant community feedback and learning. Our Server-Sent Events (SSE) infrastructure enables live tracking of tool usage across the entire network, with performance optimization ensuring sub-100ms response times even at scale. This real-time backbone supports immediate reward distribution, achievement notifications, and community recognition. More importantly, it enables dynamic tool discovery - as developers find effective solutions, their success is instantly visible to others, creating natural learning pathways. The system can support 5,000+ concurrent connections while maintaining consistent performance, enabling truly collaborative learning at scale.
 
 ```typescript
@@ -126,9 +126,9 @@ const transport = new SSEServerTransport({
   }
 });
 ```
-  - [Full Community Architecture](/claud-coin/docs/feature-build/03_USER_INTERACTION.md)
-  - [System Scaling](/claud-coin/docs/feature-build/05_DEVELOPMENT_PHASES.md)
-  - [Technical Requirements](/claud-coin/docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
+  - [Full Community Architecture](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/03_USER_INTERACTION.md)
+  - [System Scaling](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/05_DEVELOPMENT_PHASES.md)
+  - [Technical Requirements](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
 
 ================================================================================
 
@@ -193,7 +193,7 @@ Core platform development and essential infrastructure establishment.
    - User acceptance testing
 
 ### Future Development Phases
-For comprehensive development plans, see [PROJECT_MAP.md](/claud-coin/PROJECT_MAP.md)
+For comprehensive development plans, see [PROJECT_MAP.md](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/PROJECT_MAP.md)
 
 #### Platform Growth Phase [$15,000]
 Enhancing core systems and implementing community features
@@ -243,7 +243,7 @@ Our protocol is designed with clear utility focus, including:
 - Governance rights tied directly to contribution
 - Transparent documentation of utility functions
 
-For detailed risk analysis and comprehensive mitigation strategies, see [RISK_ANALYSIS.md](/claud-coin/docs/RISK_ANALYSIS.md)
+For detailed risk analysis and comprehensive mitigation strategies, see [RISK_ANALYSIS.md](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/RISK_ANALYSIS.md)
 
 ================================================================================
 
@@ -304,8 +304,8 @@ For technical questions or clarifications, please reach out through the grant pl
 
 ### Additional Resources
 - Technical Implementation: [claud-coin](https://github.com/seanivore/claud-coin)
-- Development Roadmap: [PROJECT_MAP.md](/claud-coin/PROJECT_MAP.md)
-- Risk Analysis: [RISK_ANALYSIS.md](/claud-coin/docs/RISK_ANALYSIS.md)
-- Feature Documentation: [Feature Build](/claud-coin/docs/feature-build/)
+- Development Roadmap: [PROJECT_MAP.md](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/PROJECT_MAP.md)
+- Risk Analysis: [RISK_ANALYSIS.md](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/RISK_ANALYSIS.md)
+- Feature Documentation: [Feature Build](https://github.com/seanivore/claud-coin/tree/claud-coin/docs/feature-build/)
 
 Please visit our project site: https://seanivore.github.io/claud-web/

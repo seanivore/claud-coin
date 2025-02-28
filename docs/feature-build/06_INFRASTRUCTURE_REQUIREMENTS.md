@@ -8,7 +8,7 @@
  (   /\____|_____/_/   \_\___/|____/ 
   |_|                                
 
-[Technical Requirements & Infrastructure](docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
+[Technical Requirements & Infrastructure](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
 
 Comprehensive technical implementation requirements and infrastructure specifications for all system components, ensuring reliability, security, and scalability.
 
@@ -619,11 +619,11 @@ class LogManager {
 
 ================================================================================
 
-[MCP Transport Layer](docs/feature-build/01_MCP_TRANSPORT_LAYER.md)
-[Token Economics](docs/feature-build/02_TOKEN_ECONOMICS.md)
-[User Interaction](docs/feature-build/03_USER_INTERACTION.md)
-[Community Management](docs/feature-build/04_COMMUNITY_MANAGEMENT.md)
-[Development Roadmap & Phases](docs/feature-build/05_DEVELOPMENT_PHASES.md)
-[Infrastructure Requirements](docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
+[MCP Transport Layer](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/01_MCP_TRANSPORT_LAYER.md)
+[Token Economics](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/02_TOKEN_ECONOMICS.md)
+[User Interaction](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/03_USER_INTERACTION.md)
+[Community Management](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/04_COMMUNITY_MANAGEMENT.md)
+[Development Roadmap & Phases](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/05_DEVELOPMENT_PHASES.md)
+[Infrastructure Requirements](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
 
 ================================================================================

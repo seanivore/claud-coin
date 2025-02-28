@@ -8,7 +8,7 @@
 ▗▄█▞▘▝▚▄▄▖▐▙▄▄▖▐▌ ▐▌▝▚▄▞▘▐▙▄▄▀ 
   ▀                            
 
-[STRATEGIC_PHILOSOPHY.md](/docs/STRATEGIC_PHILOSOPHY.md)
+[STRATEGIC_PHILOSOPHY.md](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/STRATEGIC_PHILOSOPHY.md)
 
 We stand at a unique moment ripe with opportunity for influence. A moment made for the bold. For those who know that design is the one thing that makes all the difference. Those of us who have lived in awe of ideas like Bitcoin, or web3 revamping the mess that the internet has become by bringing blockchain efficiency and security to the masses. The same ideas we told everyone were totally 'inevitable' because they were too perfect not to one day be part of the fabric of society.
 
@@ -88,7 +88,7 @@ This is how we create sustainable growth in the AI era. Not by building another 
 
 ### Novel Data Value 
 
-Think about the incredible value that companies like Facebook and Google have built from user data. Billions of dollars generated from tracking what people click, what they read, how they behave. Now imagine that same level of insight and value creation, but for the exploding world of AI development. Every tool interaction, every successful implementation, every learning pathway creating a map of how development actually happens in the AI era. This isn't just another data collection system - it's a fundamental reimagining of how value is created and distributed in the development ecosystem.
+Think about the incredible value that companies like Facebook and Google have built from user data. Billions of dollars generated from tracking what people click, what they read, how they behave. Now imagine that same level of insight and value creation, but for the exploding world of AI development. Every tool interaction, every successful implementation, every learning pathway creating a map of how development actually happens in the AI era. This isn't just another data collection system - it's a fundamental re-imagining of how value is created and distributed in the development ecosystem.
 
 When developers use our protocol, they're not just getting tool recommendations or earning tokens, they're contributing to what could become the most valuable dataset in modern development history. Yeah, you can read that again. There's only so many times in human history that someone can say something like that and deserve to be taken completely seriously. This happens to be one of those times. 
 

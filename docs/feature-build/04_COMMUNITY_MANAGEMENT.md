@@ -13,7 +13,7 @@
  '  `-' |   | |  ' `-'  |  ' `-'  /  ' `-'  /  
   `.__,'   (___) `.__.'_.   '.__.'    `.__,'   
                                                
-[Community Curation & Knowledge Systems](docs/feature-build/04_COMMUNITY_MANAGEMENT.md)
+[Community Curation & Knowledge Systems](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/04_COMMUNITY_MANAGEMENT.md)
 
 The heart of our protocol lies in how it enables communities to curate knowledge, validate tools, and grow collectively. This implementation focuses on creating sustainable pathways for community-driven development while ensuring quality and fairness.
 
@@ -1112,11 +1112,11 @@ This implementation ensures:
 
 ================================================================================
 
-[MCP Transport Layer](docs/feature-build/01_MCP_TRANSPORT_LAYER.md)
-[Token Economics](docs/feature-build/02_TOKEN_ECONOMICS.md)
-[User Interaction](docs/feature-build/03_USER_INTERACTION.md)
-[Community Management](docs/feature-build/04_COMMUNITY_MANAGEMENT.md)
-[Development Roadmap & Phases](docs/feature-build/05_DEVELOPMENT_PHASES.md)
-[Infrastructure Requirements](docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
+[MCP Transport Layer](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/01_MCP_TRANSPORT_LAYER.md)
+[Token Economics](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/02_TOKEN_ECONOMICS.md)
+[User Interaction](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/03_USER_INTERACTION.md)
+[Community Management](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/04_COMMUNITY_MANAGEMENT.md)
+[Development Roadmap & Phases](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/05_DEVELOPMENT_PHASES.md)
+[Infrastructure Requirements](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
 
 ================================================================================

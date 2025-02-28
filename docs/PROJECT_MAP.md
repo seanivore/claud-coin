@@ -7,7 +7,7 @@
 |/__\|/__\|/__\|/__\|/__\|/__\|
 
 
-[Development Roadmap & Project Structure](PROJECT_MAP.md)
+[Development Roadmap & Project Structure](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/PROJECT_MAP.md)
 
 This document outlines our development phases and funding milestones, providing clear deliverables and timelines for each stage of the project. 
 
@@ -25,10 +25,10 @@ Status: ✅ Complete
   - Anti-gaming protections
   - Technical documentation framework
 
-[Technical Implementation](/claud-coin/docs/feature-build/01_MCP_TRANSPORT_LAYER.md)
-[Token System](/claud-coin/docs/feature-build/02_TOKEN_ECONOMICS.md)
-[Security Architecture](/claud-coin/docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
-[Development Timeline](/claud-coin/docs/feature-build/05_DEVELOPMENT_PHASES.md)
+[Technical Implementation](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/01_MCP_TRANSPORT_LAYER.md)
+[Token System](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/02_TOKEN_ECONOMICS.md)
+[Security Architecture](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
+[Development Timeline](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/05_DEVELOPMENT_PHASES.md)
 
 ================================================================================
 ### Initial Funding Phase (3 Weeks) [$10,000]
@@ -88,10 +88,10 @@ Status: ✅ Complete
    - Performance testing
    - User acceptance testing
 
-[Core validation & integration](/claud-coin/docs/feature-build/01_MCP_TRANSPORT_LAYER.md)
-[Initial Pools & NFTs](/claud-coin/docs/feature-build/02_TOKEN_ECONOMICS.md)
-[Core setup](/claud-coin/docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
-[Development Timeline](/claud-coin/docs/feature-build/05_DEVELOPMENT_PHASES.md)
+[Core validation & integration](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/01_MCP_TRANSPORT_LAYER.md)
+[Initial Pools & NFTs](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/02_TOKEN_ECONOMICS.md)
+[Core setup](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
+[Development Timeline](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/05_DEVELOPMENT_PHASES.md)
 
 ================================================================================
 ### Platform Growth Phase (4 Weeks) [$15,000]
@@ -120,10 +120,10 @@ Status: ✅ Complete
    - Performance tracking
    - Reward optimization
 
-[Enhanced User Systems](/claud-coin/docs/feature-build/03_USER_INTERACTION.md)
-[Review Mechanisms](/claud-coin/docs/feature-build/04_COMMUNITY_MANAGEMENT.md)
-[Extended NFT Features](/claud-coin/docs/feature-build/02_TOKEN_ECONOMICS.md)
-[Development Timeline](/claud-coin/docs/feature-build/05_DEVELOPMENT_PHASES.md)
+[Enhanced User Systems](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/03_USER_INTERACTION.md)
+[Review Mechanisms](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/04_COMMUNITY_MANAGEMENT.md)
+[Extended NFT Features](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/02_TOKEN_ECONOMICS.md)
+[Development Timeline](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/05_DEVELOPMENT_PHASES.md)
 
 ================================================================================
 ### Network Scaling Phase (4 Weeks) [$15,000]
@@ -152,10 +152,10 @@ Status: ✅ Complete
    - Threat monitoring
    - Recovery protocols
 
-[Scaling Architecture](/claud-coin/docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
-[Governance Systems](/claud-coin/docs/feature-build/04_COMMUNITY_MANAGEMENT.md)
-[Cross-chain Features](/claud-coin/docs/feature-build/01_MCP_TRANSPORT_LAYER.md)
-[Development Timeline](/claud-coin/docs/feature-build/05_DEVELOPMENT_PHASES.md)
+[Scaling Architecture](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
+[Governance Systems](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/04_COMMUNITY_MANAGEMENT.md)
+[Cross-chain Features](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/01_MCP_TRANSPORT_LAYER.md)
+[Development Timeline](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/05_DEVELOPMENT_PHASES.md)
 
 ================================================================================
 ### Ecosystem Expansion Phase (3 Weeks) [$10,000]
@@ -184,10 +184,10 @@ Status: ✅ Complete
    - Support systems
    - Growth initiatives
 
-[API & Developer Tools](/claud-coin/docs/feature-build/03_USER_INTERACTION.md)
-[Community Expansion](/claud-coin/docs/feature-build/04_COMMUNITY_MANAGEMENT.md)
-[Integration Framework](/claud-coin/docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
-[Development Timeline](/claud-coin/docs/feature-build/05_DEVELOPMENT_PHASES.md)
+[API & Developer Tools](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/03_USER_INTERACTION.md)
+[Community Expansion](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/04_COMMUNITY_MANAGEMENT.md)
+[Integration Framework](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
+[Development Timeline](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/05_DEVELOPMENT_PHASES.md)
 
 ================================================================================
 ## Technical Implementation Structure

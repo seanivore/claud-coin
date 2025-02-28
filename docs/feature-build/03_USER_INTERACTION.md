@@ -14,7 +14,7 @@ Yb  M ,M9  8b    d9  MM    /   d'      YM. 8b     d8 MM    .M9
  YMMMMM9    YMMMM9  _MMMMMMM _dM_     _dMM_ YMMMMM9 _MMMMMMM9' 
     M                                                          
 
-[03-user-interaction.md](/docs/03-user-interaction.md)
+[03-user-interaction.md](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/03_USER_INTERACTION.md)
 
 ## Wallet Integration
 ================================================================================
@@ -196,11 +196,11 @@ class ProgressTracker {
 
 ================================================================================
 
-[MCP Transport Layer](docs/feature-build/01_MCP_TRANSPORT_LAYER.md)
-[Token Economics](docs/feature-build/02_TOKEN_ECONOMICS.md)
-[User Interaction](docs/feature-build/03_USER_INTERACTION.md)
-[Community Management](docs/feature-build/04_COMMUNITY_MANAGEMENT.md)
-[Development Roadmap & Phases](docs/feature-build/05_DEVELOPMENT_PHASES.md)
-[Infrastructure Requirements](docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
+[MCP Transport Layer](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/01_MCP_TRANSPORT_LAYER.md)
+[Token Economics](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/02_TOKEN_ECONOMICS.md)
+[User Interaction](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/03_USER_INTERACTION.md)
+[Community Management](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/04_COMMUNITY_MANAGEMENT.md)
+[Development Roadmap & Phases](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/05_DEVELOPMENT_PHASES.md)
+[Infrastructure Requirements](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
 
 ================================================================================
