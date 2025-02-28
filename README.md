@@ -98,7 +98,7 @@ We welcome contributions! See our [Contributing Guide](https://github.com/seaniv
 
 ## 📜 License
 
-Apache 2.0 - See [LICENSE](https://github.com/seanivore/claud-coin/blob/claud-coin/LICENSE) for details
+Apache 2.0 - See [LICENSE](https://github.com/seanivore/claud-coin/blob/claud-coin/LICENSE.md) for details
 
 ## 📚 Documentation
 
