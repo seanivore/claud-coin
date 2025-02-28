@@ -6,7 +6,7 @@ A Solana-based incentivization protocol for AI developer communities, focusing o
 ## 🎯 Mission
 
 Claud Coin bridges the gap between traditional developers and the emerging "AI-native" development community by:
-- Incentivizing knowledge sharing and tool creation
+- Incentivize knowledge sharing and tool creation
 - Rewarding quality contributions to the AI development ecosystem
 - Creating a sustainable economy around AI tool development
 - Gamifying the learning process for new AI developers
@@ -18,7 +18,7 @@ The project implements a three-tiered reward system:
    - Rewards for using and testing AI development tools
    - Complexity-based scoring system
    - Anti-gaming protections built-in
-]
+
 1. Resource Access [50-base-tokens]
    - Incentives for sharing development resources
    - Documentation contributions
