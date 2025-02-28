@@ -151,8 +151,8 @@ class TokenPoolManager {
         await this.pool.initializeRewardPool({
             amount: 1000,
             distribution: {
-                validation: 0.4,  // 40% for validation rewards
-                usage: 0.3,      // 30% for usage rewards
+                validation: 0.4,   // 40% for validation rewards
+                usage: 0.3,       // 30% for usage rewards
                 community: 0.3   // 30% for community participation
             }
         });
