@@ -1,12 +1,14 @@
 ================================================================================
 # Technical Requirements & Infrastructure
 ================================================================================
+```ASCII ART
    _   ____ _        _   _   _ ____  
   | | / ___| |      / \ | | | |  _ \ 
  / __) |   | |     / _ \| | | | | | |
  \__ \ |___| |___ / ___ \ |_| | |_| |
  (   /\____|_____/_/   \_\___/|____/ 
   |_|                                
+```
 
 [Technical Requirements & Infrastructure](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
 

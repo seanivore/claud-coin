@@ -13,7 +13,6 @@
  \_  $$_/
    \__/
 ```
-
 [GRANTME.md](https://github.com/seanivore/claud-coin/blob/claud-coin/GRANTME.md)
 
 ================================================================================

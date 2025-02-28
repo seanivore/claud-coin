@@ -1,4 +1,10 @@
 # Claud Coin ($CLAUD)
+```ASCII ART
+ .---. .-.     .--.  .-. .-..----. 
+/  ___}| |    / {} \ | { } || {}  \
+\     }| `--./  /\  \| {_} ||     /
+ `---' `----'`-'  `-'`-----'`----' 
+```
 [claud-coin](https://github.com/seanivore/claud-coin)
 
 A Solana-based incentivization protocol for AI developer communities, focusing on Model Context Protocol (MCP) integration and knowledge sharing.

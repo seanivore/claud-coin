@@ -1,6 +1,7 @@
 ================================================================================
 # Development Roadmap & Implementation Phases
 ================================================================================
+```ASCII ART
  ______   __       ________   __  __   ______      
 /_____/\ /_/\     /_______/\ /_/\/_/\ /_____/\     
 \:::__\/ \:\ \    \::: _  \ \\:\ \:\ \\:::_ \ \    
@@ -8,7 +9,8 @@
   \:\ \/_/\\:\ \____\:: __  \ \\:\ \:\ \\:\ \ \ \  
    \:\_\ \ \\:\/___/\\:.\ \  \ \\:\_\:\ \\:\/.:| | 
     \_____\/ \_____\/ \__\/\__\/ \_____\/ \____/_/ 
-                                                   
+```
+
 [Development Roadmap & Implementation Phases](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/05_DEVELOPMENT_PHASES.md)
 This document outlines our phased development approach, ensuring each stage builds naturally on previous work while maintaining flexibility for community growth and technological evolution.
 

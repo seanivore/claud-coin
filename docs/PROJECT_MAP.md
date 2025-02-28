@@ -1,11 +1,12 @@
 ================================================================================
 # $CLAUD Protocol: Development Roadmap & Project Structure
 ================================================================================
+```ASCII ART
  ____ ____ ____ ____ ____ ____ 
 ||$ |||C |||L |||A |||U |||D ||
 ||__|||__|||__|||__|||__|||__||
 |/__\|/__\|/__\|/__\|/__\|/__\|
-
+```
 
 [Development Roadmap & Project Structure](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/PROJECT_MAP.md)
 

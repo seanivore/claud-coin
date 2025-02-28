@@ -1,6 +1,7 @@
 ================================================================================
 # User Interaction Systems & Achievement Framework
 ================================================================================
+```ASCII ART
   __M__      ____   ____            _    ____     __________   
  6MMMMMb    6MMMMb/ `MM'           dM.   `MM'     `M`MMMMMMMb. 
 6M' M  Yb  8P    YM  MM           ,MMb    MM       M MM    `Mb 
@@ -13,6 +14,7 @@ YM. M     MM         MM          ,P `Mb   MM       M MM     MM
 Yb  M ,M9  8b    d9  MM    /   d'      YM. 8b     d8 MM    .M9 
  YMMMMM9    YMMMM9  _MMMMMMM _dM_     _dMM_ YMMMMM9 _MMMMMMM9' 
     M                                                          
+```
 
 [03-user-interaction.md](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/03_USER_INTERACTION.md)
 

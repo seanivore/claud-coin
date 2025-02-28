@@ -1,12 +1,14 @@
 ================================================================================
 # Strategic Protocol Design Philosophy
 ================================================================================
+```ASCII ART
 
  ▗█▄▖ ▗▄▄▖▗▖    ▗▄▖ ▗▖ ▗▖▗▄▄▄  
 ▐▌█  ▐▌   ▐▌   ▐▌ ▐▌▐▌ ▐▌▐▌  █ 
  ▝█▚▖▐▌   ▐▌   ▐▛▀▜▌▐▌ ▐▌▐▌  █ 
 ▗▄█▞▘▝▚▄▄▖▐▙▄▄▖▐▌ ▐▌▝▚▄▞▘▐▙▄▄▀ 
   ▀                            
+```
 
 [STRATEGIC_PHILOSOPHY.md](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/STRATEGIC_PHILOSOPHY.md)
 

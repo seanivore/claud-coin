@@ -1,6 +1,7 @@
 ================================================================================
 # Community Curation & Knowledge Systems
 ================================================================================
+```ASCII ART
             ___                           ___  
            (   )                         (   ) 
    .--.     | |    .---.   ___  ___    .-.| |  
@@ -12,7 +13,8 @@
  |  '(   )  | |  ; |  ; |  | |  ; '  | '  | |  
  '  `-' |   | |  ' `-'  |  ' `-'  /  ' `-'  /  
   `.__,'   (___) `.__.'_.   '.__.'    `.__,'   
-                                               
+```
+
 [Community Curation & Knowledge Systems](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/04_COMMUNITY_MANAGEMENT.md)
 
 The heart of our protocol lies in how it enables communities to curate knowledge, validate tools, and grow collectively. This implementation focuses on creating sustainable pathways for community-driven development while ensuring quality and fairness.
