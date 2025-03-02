@@ -1,6 +1,5 @@
-================================================================================
 # User Interaction Systems & Achievement Framework
-================================================================================
+----
 ```ASCII ART
   __M__      ____   ____            _    ____     __________   
  6MMMMMb    6MMMMb/ `MM'           dM.   `MM'     `M`MMMMMMMb. 
@@ -18,12 +17,14 @@ Yb  M ,M9  8b    d9  MM    /   d'      YM. 8b     d8 MM    .M9
 
 [03-user-interaction.md](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/03_USER_INTERACTION.md)
 
+----
+
 ## Wallet Integration
-================================================================================
+
 ### Connection Management
-• Solana wallet support
-• Transaction signing
-• Balance display
+- Solana wallet support with multiple address linking
+- Transaction signing and authentication
+- Wallet-based content consumption tracking
 
 ```typescript
 interface WalletConnection {
@@ -34,32 +35,54 @@ interface WalletConnection {
 }
 
 class WalletManager {
+    // Multi-wallet support for a single user
+    private primaryWallet: PublicKey;
+    private linkedWallets: Map<string, PublicKey>;
+    
     async initializeWallet(): Promise<void> {
         const provider = getProvider();
         const connection = new Connection(SOLANA_NETWORK);
         
         // Handle wallet events
         provider.on('connect', (publicKey: PublicKey) => {
+            this.primaryWallet = publicKey;
             this.loadUserProfile(publicKey);
             this.startActivityTracking();
         });
     }
+    
+    async linkAdditionalWallet(newWallet: PublicKey): Promise<void> {
+        // Verify ownership of both wallets
+        const signature = await this.requestSignature();
+        if (await this.verifySignature(signature)) {
+            this.linkedWallets.set(newWallet.toString(), newWallet);
+            await this.updateUserProfile();
+        }
+    }
+    
+    async authenticateForContent(contentId: string): Promise<string> {
+        // Create authentication token for content consumption
+        const authToken = await this.createAuthToken(this.primaryWallet, contentId);
+        return authToken;
+    }
 }
 ```
 
-================================================================================
+----
+
 ### Transaction interface
 • Send/receive tokens
 • View transaction history
 • Manage permissions
 
-================================================================================
+----
 ### Profile management
 • User settings
 • Achievement display 
 • Activity history
 
-================================================================================
+----
+
 ### Achievement System
 
 ```typescript
@@ -96,8 +119,66 @@ class AchievementTracker {
 }
 ```
 
+----
+
+### Terminal-Themed UI System
+
+The $CLAUD protocol interface uses a terminal-inspired design language that's familiar to developers while creating a distinctive experience.
+
+```typescript
+// Terminal-themed UI components
+class TerminalUI {
+    // Navigation components
+    renderNavigation() {
+        return {
+            homeButton: this.createTerminalButton('pwd', 'Home'),
+            settingsButton: this.createTerminalButton('env', 'Settings'),
+            profileButton: this.createTerminalButton('whoami', 'Profile'),
+            backButton: this.createTerminalButton('cd ..', 'Back'),
+            menuButton: this.createTerminalButton('ls', 'Menu'),
+            helpButton: this.createTerminalButton('man $CLAUD', 'Help')
+        };
+    }
+    
+    // Action components
+    renderActions() {
+        return {
+            createPostButton: this.createTerminalButton('touch', 'New Post'),
+            commentButton: this.createTerminalButton('commit', 'Comment'),
+            upvoteButton: this.createTerminalButton('git add', 'Upvote'),
+            shareButton: this.createTerminalButton('cp', 'Share'),
+            editButton: this.createTerminalButton('nano', 'Edit'),
+            deleteButton: this.createTerminalButton('rm', 'Delete'),
+            searchInput: this.createTerminalInput('grep', 'Search'),
+            submitButton: this.createTerminalButton('push', 'Submit')
+        };
+    }
+    
+    // Terminal-style button with monospaced font and command appearance
+    private createTerminalButton(command: string, label: string) {
+        return new TerminalButton({
+            command,
+            label,
+            style: {
+                fontFamily: 'monospace',
+                borderRadius: '0px',
+                backgroundColor: '#1e1e1e',
+                color: '#00ff00',
+                border: '1px solid #00ff00',
+                padding: '8px 16px',
+                cursor: 'pointer'
+            }
+        });
+    }
+}
+```
+
+Full details on the terminal-themed UI system are available in the [UI_TERMINAL_THEME.md](./docs/UI_TERMINAL_THEME.md) reference document.
+
+----
+
 ## Real-Time Updates
-================================================================================
+
 ### Event System
 
 ```typescript
@@ -125,7 +206,8 @@ class EventManager {
 }
 ```
 
-================================================================================
+----
+
 ### Learning Analytics
 
 ```typescript
@@ -160,8 +242,89 @@ class ProgressTracker {
 }
 ```
 
+----
+
+### MCP Token Guide System
+
+The MCP Token Guide creates a zero-friction experience where the AI proactively manages token earning opportunities.
+
+```typescript
+interface TokenGuideFeatures {
+    // Proactive notifications
+    notifyTokenOpportunities(user: User): Notification[];
+    
+    // Content preparation
+    prepareForumPost(project: Project): ForumPost;
+    suggestOptimalFlags(content: string): FlagSuggestions;
+    
+    // Achievement tracking
+    trackMilestones(user: User): Achievement[];
+    notifyMilestoneProgress(user: User): Notification[];
+    
+    // Engagement optimization
+    suggestPostTiming(): TimeRecommendation;
+    identifyTrendingTopics(): TopicRecommendation[];
+}
+
+class MCP_TokenGuide implements TokenGuideFeatures {
+    async notifyTokenOpportunities(user: User): Promise<Notification[]> {
+        const opportunities: Notification[] = [];
+        
+        // Check for project milestones
+        const projects = await this.getUserProjects(user);
+        for (const project of projects) {
+            if (this.isShareworthy(project)) {
+                opportunities.push({
+                    type: 'opportunity',
+                    message: `Your project "${project.name}" has reached a milestone! Share it to earn tokens.`,
+                    action: 'prepare-post',
+                    data: project
+                });
+            }
+        }
+        
+        // Check for relevant community questions
+        const questions = await this.findRelevantQuestions(user);
+        for (const question of questions) {
+            opportunities.push({
+                type: 'opportunity',
+                message: `There's a question about ${question.topic} you could answer for tokens.`,
+                action: 'view-question',
+                data: question
+            });
+        }
+        
+        return opportunities;
+    }
+    
+    async prepareForumPost(project: Project): Promise<ForumPost> {
+        // Extract project details automatically
+        const title = project.name;
+        const description = project.description;
+        const features = await this.extractFeatures(project);
+        const installation = await this.extractInstallation(project);
+        const examples = await this.extractExamples(project);
+        
+        // Determine optimal flags
+        const flags = await this.suggestOptimalFlags(project);
+        
+        // Create forum post draft
+        return {
+            title,
+            content: this.formatContent(description, features, installation, examples),
+            flags,
+            draft: true
+        };
+    }
+}
+```
+
+The Token Guide system minimizes user effort while maximizing rewards, in line with our zero-friction design philosophy. Full details are available in the [MCP_TOKEN_GUIDE.md](./docs/MCP_TOKEN_GUIDE.md) reference document.
+
+----
+
 ## Performance Requirements
-================================================================================
+
 ### User Interface
 
 - Initial load: <2s
@@ -169,7 +332,6 @@ class ProgressTracker {
 - Animation frame rate: >55fps
 - Input latency: <50ms
 
-================================================================================
 ### Backend Systems
 
 - Event processing: <500ms
@@ -178,7 +340,7 @@ class ProgressTracker {
 - Data sync: <2s
 
 ## Quality Assurance
-================================================================================
+
 ### Testing Standards
 
 - Unit test coverage: >90%
@@ -187,7 +349,7 @@ class ProgressTracker {
 - Security validation
 - User acceptance testing
 
-================================================================================
+
 ### Monitoring
 
 - Real-time metrics
@@ -196,7 +358,7 @@ class ProgressTracker {
 - Performance profiling
 - Resource utilization
 
-================================================================================
+----
 
 [MCP Transport Layer](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/01_MCP_TRANSPORT_LAYER.md)
 [Token Economics](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/02_TOKEN_ECONOMICS.md)
@@ -205,4 +367,4 @@ class ProgressTracker {
 [Development Roadmap & Phases](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/05_DEVELOPMENT_PHASES.md)
 [Infrastructure Requirements](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
 
-================================================================================
+----
