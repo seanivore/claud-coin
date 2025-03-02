@@ -1,6 +1,5 @@
-================================================================================
 # Token Economics & Distribution Systems
-================================================================================
+----
 ```ASCII ART
  __    ____     __       ______  __  __  ____      
 /\ \_ /\  _`\  /\ \     /\  _  \/\ \/\ \/\  _`\    
@@ -21,7 +20,7 @@ Our token system fundamentally re-imagines how value is created and distributed 
 
 The brilliance of our token system lies in how it aligns incentives to create value organically. When developers share solutions, they're not just helping one person - they're creating permanent value that generates ongoing rewards. When they document their learning journey, they're building pathways others can follow, earning tokens each time someone benefits from their experience.
 
-================================================================================
+----
 ### Value Amplification
 
 1. Natural Behaviors
@@ -51,7 +50,9 @@ This natural approach makes our token system incredibly resilient. There's no ce
 
 Our token system is designed to create natural incentives for community participation while ensuring fair value distribution. The implementation focuses on security, scalability, and transparent reward mechanisms.
 
-================================================================================
+Our token reward system creates a clean separation between **user engagement** and **creator milestones**. Users earn tokens through active participation (tool usage, content consumption, forum engagement), while creators receive milestone-based rewards rather than per-use tokens. This approach prevents gaming while ensuring creators focus on quality over quantity.
+
+----
 ### NFT Implementation
 
 Our NFT system manages MCP verification and achievement tracking through on-chain tokens with rich metadata. The implementation focuses on security, verifiability, and seamless integration with our achievement system.
@@ -173,7 +174,7 @@ This implementation provides:
 - Activity-based unlocks
 - On-chain proof of verification
 
-================================================================================
+----
 ### Core Token Interface
 
 ```solidity
@@ -198,39 +199,71 @@ interface IAchievements {
 }
 ```
 
-================================================================================
+----
 ### Reward Distribution System
 
 The reward system creates natural incentives for quality contributions while protecting against gaming attempts.
 
 ```typescript
-function calculateReward(
-    baseTokens: number,
-    complexity: number,
-    multiplier: number
-): number {
-    // Complexity factor normalized to 0-1 range
-    const complexityFactor = Math.min(complexity / 1000, 1);
-    return baseTokens * complexityFactor * multiplier;
-}
+// Core token value definition
+const TOKEN_VALUE = 0.00125; // 1/8th cent per token
 
-// Activity-based reward multipliers
-const MULTIPLIERS = {
-    TOOL_CREATION: 2.0,     // Encouraging new tool development
-    DOCUMENTATION: 1.5,     // Knowledge sharing bonus
-    COMMUNITY_HELP: 1.3,    // Supporting other developers
-    TESTING: 1.2,           // Tool validation contribution
+// User engagement rewards (tokens earned per action)
+const USER_REWARDS = {
+    TOOL_USAGE: 8,           // Using an MCP tool
+    ANALYTICS_USAGE: 16,      // Using a tool with analytics sharing
+    FORUM_POST: 16,           // Creating a forum post
+    COMMENT: 4,               // Adding a comment
+    UPVOTE: 4,                // Upvoting content
+    CONTENT_CONSUMPTION: 8    // Completing a tutorial or article
 };
 
-// Base token allocation per activity type
-const BASE_REWARDS = {
-    TOOL_USAGE: 100,       // Standard tool interaction
-    RESOURCE_ACCESS: 50,   // Learning material engagement
-    COMMUNITY: 200         // High-value community building
+// Creator milestone rewards
+const CREATOR_MILESTONES = {
+    MCP_REGISTRATION: 2400,    // One-time registration reward
+    CONTENT_PUBLICATION: 800,  // Approved article or video
+    USAGE_THRESHOLD_100: 800,  // Reaching 100 users
+    USAGE_THRESHOLD_1000: 2400, // Reaching 1,000 users
+    TOP_RANKING: 1600          // Achieving top 3 position
+};
+
+// Forum flag system (base rewards and multipliers)
+const FORUM_FLAGS = {
+    // Primary flags (base rewards)
+    PRIMARY: {
+        BUILD: 16,              // Development projects
+        HOW_TO: 24,             // Tutorials and guides
+        TECHNICAL_QUESTION: 12, // Help requests
+        DISCUSSION: 16,         // General topics
+        ANNOUNCEMENT: 20,       // Official updates
+        SHOWCASE: 16,           // Completed projects
+        RESOURCE: 20            // Valuable resources
+    },
+    
+    // Modifier flags (multipliers)
+    MODIFIER: {
+        PROGRESS: 1.2,          // Work in development
+        SHIPPED: 1.5,           // Completed project
+        OPEN_SOURCE: 1.3,       // Freely available
+        SEEKING_FEEDBACK: 1.1,  // Requesting input
+        EXPERIMENTAL: 1.2,      // Novel concepts
+        BEGINNER_FRIENDLY: 1.2, // For newcomers
+        ADVANCED: 1.2           // Complex content
+    },
+    
+    // Platform/Language flags (small bonus)
+    CATEGORY: 2                 // Fixed bonus per category flag
+};
+
+// Anti-gaming protections
+const PROTECTION = {
+    DAILY_CAP: 800,            // Maximum daily earnings
+    COOLDOWN: 60,              // Seconds between rewards
+    MINIMUM_ENGAGEMENT: 30      // Seconds of active engagement
 };
 ```
 
-================================================================================
+----
 ### Distribution Management
 
 Clear token distribution rules ensure sustainable ecosystem growth while maintaining value alignment.
@@ -252,33 +285,49 @@ interface Distribution {
 }
 ```
 
-================================================================================
+----
+### Anti-Gaming Protection
+
 ### Anti-Gaming Protection
 
 Robust systems ensure fair value distribution while preventing manipulation.
 
 ```typescript
+// Protection mechanisms
 const securityChecks = {
-    validateComplexity: (score: number, history: ActivityRecord[]): boolean => {
-        // Ensure natural progression of complexity
-        const avgComplexity = calculateMovingAverage(history, 'complexity');
-        return Math.abs(score - avgComplexity) < COMPLEXITY_THRESHOLD;
+    // Content engagement verification
+    verifyContentEngagement: async (userId: string, contentId: string): Promise<boolean> => {
+        // For videos: Verify play/pause actions and progress percentage
+        // For articles: Check scroll depth and time spent on sections
+        // For tools: Validate actual usage patterns
+        
+        const engagementMetrics = await getEngagementMetrics(userId, contentId);
+        return engagementMetrics.activeTime > PROTECTION.MINIMUM_ENGAGEMENT;
     },
 
+    // Daily cap enforcement
+    enforceDailyLimit: async (userId: string, amount: number): Promise<boolean> => {
+        const dailyTotal = await getUserDailyEarnings(userId);
+        return (dailyTotal + amount) <= PROTECTION.DAILY_CAP;
+    },
+
+    // Activity pattern analysis
     checkActivityPattern: (user: string, activity: Activity): boolean => {
         // Detect unusual patterns indicating potential gaming
         const recentActivities = getRecentActivities(user, TIME_WINDOW);
         return !detectAnomalies(activity, recentActivities);
     },
 
-    enforceRateLimit: async (userId: string): Promise<boolean> => {
-        const current = await getCurrentRate(userId);
-        return current <= RATE_LIMIT;
+    // Milestone validation
+    validateMilestone: async (creator: string, milestone: string): Promise<boolean> => {
+        // Verify milestone achievement with on-chain data
+        // Ensure achievements are legitimate and verified
+        return await verifyOnChainMetrics(creator, milestone);
     }
 };
-```  
+```
 
-================================================================================
+----
 ### Community Data Governance
 
 The data governance system ensures community ownership and control over valuable ecosystem data.
@@ -451,8 +500,8 @@ class CommunityDataGovernance {
 }
 ```
 
+----
 ## Performance Requirements
-================================================================================
 ### Blockchain Performance
 
 - Transaction confirmation: <2s
@@ -488,7 +537,6 @@ class CommunityDataGovernance {
    - Access control
 
 ## Quality Assurance
-================================================================================
 ### Testing Standards
 - Unit test coverage: >90%
 - Integration tests: All critical paths
@@ -504,7 +552,6 @@ class CommunityDataGovernance {
 - System health checks
 
 ## Future Extensions
-================================================================================
 ### Planned Features
 - Cross-chain integration
 - Advanced analytics
@@ -519,7 +566,7 @@ class CommunityDataGovernance {
 - Continuous integration improvements
 - Regular dependency updates
 
-================================================================================
+----
 
 [MCP Transport Layer](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/01_MCP_TRANSPORT_LAYER.md)
 [Token Economics](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/02_TOKEN_ECONOMICS.md)
@@ -528,4 +575,4 @@ class CommunityDataGovernance {
 [Development Roadmap & Phases](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/05_DEVELOPMENT_PHASES.md)
 [Infrastructure Requirements](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
 
-================================================================================
+----
