@@ -1,6 +1,6 @@
-================================================================================
 # MCP Transport Layer Implementation
-================================================================================
+----
+
 ```ASCII ART
   _____   __        _____    __    __   _____    
  /\ __/\ /\_\      /\___/\  /\_\  /_/\ /\ __/\   
@@ -11,13 +11,14 @@
  \/___\/ \/_____/ \/_/ \_\/   \/__\/   \/___\/   
 ```
 
-[01-mcp-transport-layer.md](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/01_MCP_TRANSPORT_LAYER.md)
+[01-mcp-transport-layer.md](./docs/feature-build/01_MCP_TRANSPORT_LAYER.md)
+
+----
 
 ## Transport Layer Implementation
 
 Our transport layer provides the foundation for real-time communication between MCPs, clients, and our protocol. This implementation focuses on reliability, security, and scalability while enabling seamless integration of new tools and resources.
 
-================================================================================
 ### Primary Transport Components
 
 1. Primary Transport: HTTP with SSE (Server-Sent Events)
@@ -46,7 +47,14 @@ Our transport layer provides the foundation for real-time communication between 
    - Connection state management
    - Message validation and sanitization
 
-================================================================================
+4. Wallet Authentication System
+   - Multi-wallet support per user
+   - Content consumption verification
+   - Transaction signing and verification
+   - Solana account integration
+
+----
+
 ### Implementation Example
 
 ```typescript
@@ -89,7 +97,8 @@ server.on('connection', async (client) => {
 });
 ```
 
-================================================================================
+----
+
 ### Integration Requirements
 
 1. Server-side Components:
@@ -111,7 +120,7 @@ server.on('connection', async (client) => {
    - Input validation
 
 ## Tools Implementation
-================================================================================
+
 ### Token Tracking Tools
 
 1. Usage Monitoring
@@ -170,7 +179,69 @@ class UsageTracker {
    - Process rewards
    - Monitor system health
 
-================================================================================
+4. Notification System
+   - Real-time token opportunity alerts
+   - Achievement milestone notifications
+   - Community engagement suggestions
+   - Token earning optimizations
+
+This notification system powers the zero-friction design philosophy by proactively alerting users to token earning opportunities without requiring manual checking or management.
+
+```typescript
+interface NotificationSystem {
+    // Core notification types
+    sendTokenOpportunity(userId: string, opportunity: TokenOpportunity): Promise<void>;
+    sendAchievementUpdate(userId: string, achievement: Achievement): Promise<void>;
+    sendCommunityAlert(userId: string, alert: CommunityAlert): Promise<void>;
+    
+    // Notification preferences
+    getUserNotificationPreferences(userId: string): Promise<NotificationPreferences>;
+    updateNotificationPreferences(userId: string, preferences: NotificationPreferences): Promise<void>;
+    
+    // Notification delivery
+    deliverNotification(notification: Notification): Promise<DeliveryStatus>;
+}
+
+class MCP_NotificationManager implements NotificationSystem {
+    async sendTokenOpportunity(userId: string, opportunity: TokenOpportunity): Promise<void> {
+        // Check user preferences
+        const preferences = await this.getUserNotificationPreferences(userId);
+        if (!preferences.tokenOpportunities) {
+            return;
+        }
+        
+        // Create notification
+        const notification: Notification = {
+            type: 'token_opportunity',
+            userId,
+            title: 'Token Earning Opportunity',
+            message: this.formatOpportunityMessage(opportunity),
+            data: opportunity,
+            timestamp: Date.now(),
+            actions: this.getOpportunityActions(opportunity)
+        };
+        
+        // Deliver through appropriate channels
+        await this.deliverNotification(notification);
+    }
+    
+    private formatOpportunityMessage(opportunity: TokenOpportunity): string {
+        switch (opportunity.type) {
+            case 'project_milestone':
+                return `Your project "${opportunity.projectName}" is ready to share! Earn ${opportunity.potentialTokens} tokens by posting it to the community.`;
+            case 'community_question':
+                return `There's a question about ${opportunity.topic} you could answer to earn tokens.`;
+            case 'content_creation':
+                return `Creating a ${opportunity.contentType} about ${opportunity.topic} could earn you ${opportunity.potentialTokens} tokens.`;
+            default:
+                return `You have a new token earning opportunity!`;
+        }
+    }
+}
+```
+
+----    
+
 ### Tool Discovery and Management
 
 1. Registration System
@@ -380,8 +451,76 @@ class TestRunner {
     }
 }
 ```
+### User Account and Wallet Management
 
-================================================================================
+```typescript
+interface UserAccount {
+    userId: string;               // Unique user identifier
+    primaryWallet: PublicKey;     // Primary Solana wallet
+    linkedWallets: PublicKey[];   // Additional linked wallets
+    created: number;              // Account creation timestamp
+    profile: UserProfile;         // User profile information
+    preferences: UserPreferences; // User settings
+}
+
+class AccountManager {
+    async createAccount(wallet: PublicKey): Promise<UserAccount> {
+        // Verify wallet ownership
+        const signature = await this.requestWalletSignature(wallet);
+        if (!await this.verifySignature(signature, wallet)) {
+            throw new Error('Wallet verification failed');
+        }
+        
+        // Create new user account
+        const userId = generateUserId();
+        const account: UserAccount = {
+            userId,
+            primaryWallet: wallet,
+            linkedWallets: [],
+            created: Date.now(),
+            profile: this.createDefaultProfile(),
+            preferences: this.createDefaultPreferences()
+        };
+        
+        // Store account
+        await this.storeUserAccount(account);
+        
+        return account;
+    }
+    
+    async linkWallet(userId: string, newWallet: PublicKey): Promise<boolean> {
+        // Get existing account
+        const account = await this.getUserAccount(userId);
+        if (!account) {
+            throw new Error('Account not found');
+        }
+        
+        // Verify primary wallet ownership
+        const primarySignature = await this.requestWalletSignature(
+            account.primaryWallet
+        );
+        if (!await this.verifySignature(primarySignature, account.primaryWallet)) {
+            throw new Error('Primary wallet verification failed');
+        }
+        
+        // Verify new wallet ownership
+        const newSignature = await this.requestWalletSignature(newWallet);
+        if (!await this.verifySignature(newSignature, newWallet)) {
+            throw new Error('New wallet verification failed');
+        }
+        
+        // Add new wallet to account
+        account.linkedWallets.push(newWallet);
+        await this.updateUserAccount(account);
+        
+        return true;
+    }
+}
+```
+The account system enables seamless multi-wallet support, crucial for users who may have different wallets for different purposes or who need recovery options.
+
+----
+
 2. MCP Validation Framework
 
 The validation system ensures MCP quality, security, and compatibility before registration.
@@ -660,7 +799,8 @@ if (validationResult.success) {
 }
 ```
 
-================================================================================
+----
+
 3. Discovery and Broadcasting
    - Tool capability broadcasting
    - Version management
@@ -702,7 +842,8 @@ class ToolRegistry {
 }
 ```
 
-================================================================================
+----
+
 ### Natural Behavior Tracking
 
 The natural behavior tracking system captures and analyzes how developers interact with MCPs and tools in their normal workflow.
@@ -894,7 +1035,8 @@ class ValueRecognitionSystem {
    - Fair usage policies
    - Quota management
 
-================================================================================
+----
+
 ### Error Handling and Validation
 
 1. Input Validation
@@ -916,7 +1058,7 @@ class ValueRecognitionSystem {
    - Performance metrics
 
 ## Performance Requirements
-================================================================================
+
 ### API Performance
 
 - Response time: <100ms
@@ -939,7 +1081,6 @@ class ValueRecognitionSystem {
 - Security audits
 - Community review
 
-================================================================================
 ## Implementation Notes
 
 Key considerations for this phase:
@@ -963,13 +1104,13 @@ Key considerations for this phase:
    - Connection stability
    - Resource usage
 
-================================================================================
+----
 
-[MCP Transport Layer](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/01_MCP_TRANSPORT_LAYER.md)
-[Token Economics](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/02_TOKEN_ECONOMICS.md)
-[User Interaction](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/03_USER_INTERACTION.md)
-[Community Management](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/04_COMMUNITY_MANAGEMENT.md)
-[Development Roadmap & Phases](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/05_DEVELOPMENT_PHASES.md)
-[Infrastructure Requirements](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
+[MCP Transport Layer](./docs/feature-build/01_MCP_TRANSPORT_LAYER.md)
+[Token Economics](./docs/feature-build/02_TOKEN_ECONOMICS.md)
+[User Interaction](./docs/feature-build/03_USER_INTERACTION.md)
+[Community Management](./docs/feature-build/04_COMMUNITY_MANAGEMENT.md)
+[Development Roadmap & Phases](./docs/feature-build/05_DEVELOPMENT_PHASES.md)
+[Infrastructure Requirements](./docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
 
-================================================================================
+----
