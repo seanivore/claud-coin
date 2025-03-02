@@ -1,6 +1,7 @@
-================================================================================
 # Strategic Protocol Design Philosophy
-================================================================================
+
+----
+
 ```ASCII ART
 
  ▗█▄▖ ▗▄▄▖▗▖    ▗▄▖ ▗▖ ▗▖▗▄▄▄  
@@ -10,13 +11,14 @@
   ▀                            
 ```
 
-[STRATEGIC_PHILOSOPHY.md](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/STRATEGIC_PHILOSOPHY.md)
+[STRATEGIC_PHILOSOPHY.md](./docs/STRATEGIC_PHILOSOPHY.md)
 
 We stand at a unique moment ripe with opportunity for influence. A moment made for the bold. For those who know that design is the one thing that makes all the difference. Those of us who have lived in awe of ideas like Bitcoin, or web3 revamping the mess that the internet has become by bringing blockchain efficiency and security to the masses. The same ideas we told everyone were totally 'inevitable' because they were too perfect not to one day be part of the fabric of society.
 
 Right now change is happening faster than ever. It's possible no one will ever see a moment like this again. There is no passing it up. There is only acknowledging that this is less an opportunity and more an obligation. This knowledge and understanding is a gift. And now we've been presented with perfect timing. Timing! No one ever gets timing perfect like this.
 
-================================================================================
+----
+
 - [Strategic Protocol Design Philosophy](#strategic-protocol-design-philosophy)
   - [Core Vision and Ecosystem Impact](#core-vision-and-ecosystem-impact)
     - [The World Changing Before Our Eyes](#the-world-changing-before-our-eyes)
@@ -38,10 +40,11 @@ Right now change is happening faster than ever. It's possible no one will ever s
   - [Organic Growth Pathways](#organic-growth-pathways)
     - [Research and Innovation Platform](#research-and-innovation-platform)
     - [Community-Driven Future](#community-driven-future)
+  - [Community-Driven Future](#community-driven-future-1)
 
-================================================================================
+----
+
 ## Core Vision and Ecosystem Impact ##
-================================================================================
 
 ### The World Changing Before Our Eyes
 
@@ -51,9 +54,9 @@ Meanwhile, also today, in February 2025, there are more new AI-technology startu
 
 This democratization of development, while powerful, lacks the infrastructure to ensure sustainable growth and community protection. The challenge isn't just technical - it's deeply human. How do we ensure that as technology democratizes development, we create sustainable pathways for millions to contribute meaningfully? How do we build systems that protect and empower developers while technology evolves at breakneck speed?
 
-================================================================================
+----
+
 ## Natural Systems: Value Creation Foundation ##
-================================================================================
 
 The brilliance of blockchain wasn't just in its technology - it was in how it aligned incentives to create value naturally. Our protocol takes this same principle and applies it to the AI development ecosystem. Instead of forcing new behaviors or creating artificial systems, we've designed a protocol that amplifies what developers already do naturally.
 
@@ -84,9 +87,9 @@ Most importantly, this natural system approach means the protocol can scale effo
 
 This is how we create sustainable growth in the AI era. Not by building another walled garden or forcing new workflows, but by making developers' natural behaviors more powerful. Every action they take not only helps others but strengthens their own position and the community as a whole. This is how we ensure that as AI democratizes development, we create lasting positive change rather than just another wave of disruption.
 
-================================================================================
+----
+
 ## The Knowledge Graph Revolution ##
-================================================================================
 
 ### Novel Data Value 
 
@@ -155,9 +158,9 @@ The knowledge graph grows more valuable with every interaction, creating network
 
 This is more than a feature of our protocol, it's a revolution in how developer communities create and capture value. In a world where data is often called the new oil, we're ensuring that the incredibly valuable data created by AI-era development benefits those who create it. This isn't just about making development more efficient,  it's about fundamentally changing who profits from that efficiency.
 
-================================================================================
+----
+
 ## Reward Mechanism Design ##
-================================================================================
 
 ### Natural Value Recognition
 
@@ -177,9 +180,9 @@ One of our protocol's most powerful features is how it surfaces quality through 
 
 When a tool or resource proves genuinely useful, this becomes visible through increased usage, successful implementations, and positive outcomes. The protocol automatically tracks these patterns and adjusts rewards accordingly, ensuring that value flows to creators of truly useful contributions. This creates a self-improving ecosystem where the best solutions naturally become more visible and valuable.
 
-================================================================================
+----
+
 ## Implementation Architecture ##
-================================================================================
 
 Our technical architecture isn't just about building another platform - it's about creating infrastructure for a new kind of economy. One where value flows to those who create it, where data serves communities rather than corporations, where protection emerges naturally from participation. This requires fundamentally rethinking how we build systems.
 
@@ -225,9 +228,9 @@ Even our approach to security and scaling reflects this philosophy. Instead of o
 
 This is how we build infrastructure for a new kind of economy - not through grand pronouncements or complex schemes, but through careful technical choices that align with our vision. Every component, from the headless architecture to the modular design, works together to create a system where value flows naturally to those who create it.
 
-================================================================================
+----
+
 ## Organic Growth Pathways ##
-================================================================================
 
 Our protocol is designed to grow and evolve naturally with the community it serves. Rather than forcing predetermined development paths, we've created a system that can adapt based on actual usage patterns and community needs. This organic growth ensures that the protocol remains relevant and valuable as technology and development practices change.
 
@@ -242,5 +245,11 @@ The protocol's open nature means that researchers and innovators can build on th
 ### Community-Driven Future
 
 Ultimately, the protocol's evolution will be guided by the community it serves. Through carefully designed governance mechanisms, developers can collectively decide how the system should grow and adapt. This ensures that development priorities align with actual community needs rather than external agendas.
+
+This community-driven approach extends to all aspects of the protocol, from technical features to reward mechanisms. As the community's needs evolve, they can vote on changes to any aspect of the system, ensuring it continues to serve their interests effectively.
+
+----
+
+## Community-Driven Future ##
 
 This community-driven approach extends to all aspects of the protocol, from technical features to reward mechanisms. As the community's needs evolve, they can vote on changes to any aspect of the system, ensuring it continues to serve their interests effectively.
