@@ -1,4 +1,4 @@
-# Tokenomics Calculator
+# Market Research
 Estimates based on case studies and manual research where necessary.
 Industry standard conversion rate: 3%/impression + 3%/visit
 
