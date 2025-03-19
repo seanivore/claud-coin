@@ -1,0 +1,18 @@
+{
+	"folders": [
+        {
+            "path": ".."
+        },
+        {
+            "path": "../../clôd"
+        },
+        {
+            "path": "../../0ero-grav-art"
+        }
+    ],
+    "extensions": {
+        "recommendations": [
+            "juanblanco.solidity"
+        ]
+    }
+}
