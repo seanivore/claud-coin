@@ -1,23 +1,4 @@
 # User Interaction Systems & Achievement Framework
-----
-```ASCII ART
-  __M__      ____   ____            _    ____     __________   
- 6MMMMMb    6MMMMb/ `MM'           dM.   `MM'     `M`MMMMMMMb. 
-6M' M  Yb  8P    YM  MM           ,MMb    MM       M MM    `Mb 
-MM  M     6M      Y  MM           d'YM.   MM       M MM     MM 
-YM. M     MM         MM          ,P `Mb   MM       M MM     MM 
- YMMMMMb  MM         MM          d'  YM.  MM       M MM     MM 
-    M `Mb MM         MM         ,P   `Mb  MM       M MM     MM 
-    M  MM MM         MM         d'    YM. MM       M MM     MM 
-    M  MM YM      6  MM        ,MMMMMMMMb YM       M MM     MM 
-Yb  M ,M9  8b    d9  MM    /   d'      YM. 8b     d8 MM    .M9 
- YMMMMM9    YMMMM9  _MMMMMMM _dM_     _dMM_ YMMMMM9 _MMMMMMM9' 
-    M                                                          
-```
-
-[03-user-interaction.md](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/03_USER_INTERACTION.md)
-
-----
 
 ## Wallet Integration
 
@@ -68,20 +49,15 @@ class WalletManager {
 }
 ```
 
-----
-
 ### Transaction interface
 • Send/receive tokens
 • View transaction history
 • Manage permissions
 
-----
 ### Profile management
 • User settings
 • Achievement display 
 • Activity history
-
-----
 
 ### Achievement System
 
@@ -118,8 +94,6 @@ class AchievementTracker {
     }
 }
 ```
-
-----
 
 ### Terminal-Themed UI System
 
@@ -173,9 +147,8 @@ class TerminalUI {
 }
 ```
 
-Full details on the terminal-themed UI system are available in the [UI_TERMINAL_THEME.md](./docs/UI_TERMINAL_THEME.md) reference document.
+Full details on the terminal-themed UI system are available in the [UI_TERMINAL_THEME.md](/docs/UI_TERMINAL_THEME.md) reference document.
 
-----
 
 ## Real-Time Updates
 
@@ -319,9 +292,7 @@ class MCP_TokenGuide implements TokenGuideFeatures {
 }
 ```
 
-The Token Guide system minimizes user effort while maximizing rewards, in line with our zero-friction design philosophy. Full details are available in the [MCP_TOKEN_GUIDE.md](./docs/MCP_TOKEN_GUIDE.md) reference document.
-
-----
+The Token Guide system minimizes user effort while maximizing rewards, in line with our zero-friction design philosophy. Full details are available in the [MCP_TOKEN_GUIDE.md](/docs/MCP_TOKEN_GUIDE.md) reference document.
 
 ## Performance Requirements
 
@@ -357,14 +328,3 @@ The Token Guide system minimizes user effort while maximizing rewards, in line w
 - User behavior analytics
 - Performance profiling
 - Resource utilization
-
-----
-
-[MCP Transport Layer](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/01_MCP_TRANSPORT_LAYER.md)
-[Token Economics](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/02_TOKEN_ECONOMICS.md)
-[User Interaction](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/03_USER_INTERACTION.md)
-[Community Management](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/04_COMMUNITY_MANAGEMENT.md)
-[Development Roadmap & Phases](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/05_DEVELOPMENT_PHASES.md)
-[Infrastructure Requirements](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
-
-----

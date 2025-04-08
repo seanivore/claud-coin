@@ -1,26 +1,9 @@
 # Community Curation & Knowledge Systems
-----
-```ASCII ART
-            ___                           ___  
-           (   )                         (   ) 
-   .--.     | |    .---.   ___  ___    .-.| |  
-  /    \    | |   / .-, \ (   )(   )  /   \ |  
- |  .-. ;   | |  (__) ; |  | |  | |  |  .-. |  
- |  |(___)  | |    .'`  |  | |  | |  | |  | |  
- |  |       | |   / .'| |  | |  | |  | |  | |  
- |  | ___   | |  | /  | |  | |  | |  | |  | |  
- |  '(   )  | |  ; |  ; |  | |  ; '  | '  | |  
- '  `-' |   | |  ' `-'  |  ' `-'  /  ' `-'  /  
-  `.__,'   (___) `.__.'_.   '.__.'    `.__,'   
-```
-
-[Community Curation & Knowledge Systems](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/04_COMMUNITY_MANAGEMENT.md)
 
 The heart of our protocol lies in how it enables communities to curate knowledge, validate tools, and grow collectively. This implementation focuses on creating sustainable pathways for community-driven development while ensuring quality and fairness.
 
-----
-
 ## Community Curation System
+
 ### MCP Submission & Review Process
 
 The submission process creates natural incentives for quality while enabling community validation.
@@ -59,7 +42,6 @@ class SubmissionManager {
 }
 ```
 
-----
 ### Quality Assurance System
 
 Automated and community testing work together to ensure tool reliability.
@@ -97,7 +79,6 @@ class QualityTracker {
 }
 ```
 
-----
 ### Token-Based Review Incentives
 
 The review system creates value alignment between reviewers and the community.
@@ -127,8 +108,6 @@ class ReviewSystem {
   }
 }
 ```
-
-----
 
 ### Content Verification Framework
 
@@ -196,9 +175,8 @@ class ContentVerifier {
 }
 ```
 
-----
-
 ## Knowledge Base Management
+
 ### Learning Path Optimization
 
 The system dynamically generates and optimizes learning paths based on user progress, community patterns, and skill relationships.
@@ -494,7 +472,6 @@ class ProgressTracker {
     }
 }
 ```
-----
 
 The path optimization system:
 - Dynamically generates personalized learning paths
@@ -502,8 +479,6 @@ The path optimization system:
 - Tracks individual progress
 - Suggests optimizations
 - Validates skill acquisition
-
-----
 
 ### Forum System Implementation
 
@@ -560,17 +535,13 @@ function calculatePostReward(post: ForumPost): number {
 }
 ```
 
-----
-
 This implementation ensures:
+
 - Content is properly categorized for discovery
 - Quality contributions are rewarded appropriately
 - Users can filter content to their interests
 - The system reinforces the terminal aesthetic
 
-Full details on the forum flag system are available in the [FORUM_FLAGS.md](./docs/FORUM_FLAGS.md) reference document. 
-
-----
 
 ### Content Organization System
 
@@ -607,7 +578,6 @@ class KnowledgeGraph {
 }
 ```
 
-----
 ### Learning Path Generation
 
 The system automatically identifies and rewards effective learning paths.
@@ -671,8 +641,6 @@ class RecognitionSystem {
 }
 ```
 
-----
-
 ### Community Health Monitoring
 
 Automated systems help maintain community quality and engagement.
@@ -698,8 +666,6 @@ class HealthMonitor {
   }
 }
 ```
-
-----
 
 ### Organic Growth System
 
@@ -917,9 +883,8 @@ class PathwayOptimizer {
 }
 ```
 
-----
-
 ## Performance Requirements
+
 ### User Operations
 - Content submission: <2s
 - Review process: <1s
@@ -963,8 +928,6 @@ Key success metrics track:
 - Learning effectiveness
 - System reliability
 - Value distribution
-
-----
 
 ### Content Management System
 
@@ -1252,14 +1215,3 @@ This implementation ensures:
 3. Fair and consistent review process
 4. Engagement optimization
 5. Community-driven improvements
-
-----
-
-[MCP Transport Layer](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/01_MCP_TRANSPORT_LAYER.md)
-[Token Economics](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/02_TOKEN_ECONOMICS.md)
-[User Interaction](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/03_USER_INTERACTION.md)
-[Community Management](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/04_COMMUNITY_MANAGEMENT.md)
-[Development Roadmap & Phases](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/05_DEVELOPMENT_PHASES.md)
-[Infrastructure Requirements](https://github.com/seanivore/claud-coin/blob/claud-coin/docs/feature-build/06_INFRASTRUCTURE_REQUIREMENTS.md)
-
-----

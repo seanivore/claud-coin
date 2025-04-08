@@ -1,13 +1,16 @@
 {
 	"folders": [
         {
+            "path": "/Users/seanivore/Development/_resources/ai-dev-docs"
+        },
+        {
             "path": ".."
         },
         {
             "path": "../../clôd"
         },
         {
-            "path": "../../0ero-grav-art"
+            "path": "../../cloddevs"
         }
     ],
     "extensions": {
